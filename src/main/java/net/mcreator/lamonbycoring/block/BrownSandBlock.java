@@ -44,11 +44,11 @@ import java.util.List;
 import java.util.Collections;
 
 @LamonByCoringModElements.ModElement.Tag
-public class YellowSandBlock extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:yellow_sand")
+public class BrownSandBlock extends LamonByCoringModElements.ModElement {
+	@ObjectHolder("lamon_by_coring:brown_sand")
 	public static final Block block = null;
-	public YellowSandBlock(LamonByCoringModElements instance) {
-		super(instance, 18);
+	public BrownSandBlock(LamonByCoringModElements instance) {
+		super(instance, 23);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -63,7 +63,7 @@ public class YellowSandBlock extends LamonByCoringModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0f, 10f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL).setRequiresTool());
-			setRegistryName("yellow_sand");
+			setRegistryName("brown_sand");
 		}
 
 		@Override
@@ -100,7 +100,7 @@ public class YellowSandBlock extends LamonByCoringModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:yellow_sand_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:brown_sand_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -116,8 +116,8 @@ public class YellowSandBlock extends LamonByCoringModElements.ModElement {
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 30)).range(70)
 					.square().func_242731_b(10);
-			event.getRegistry().register(feature.setRegistryName("yellow_sand"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:yellow_sand"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("brown_sand"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:brown_sand"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

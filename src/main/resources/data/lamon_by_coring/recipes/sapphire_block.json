@@ -1,0 +1,42 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "1": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "2": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "3": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "4": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "5": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "6": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "7": {
+      "item": "lamon_by_coring:sapphireitem"
+    },
+    "8": {
+      "item": "lamon_by_coring:sapphireitem"
+    }
+  },
+  "result": {
+    "item": "lamon_by_coring:sapphire_block",
+    "count": 1
+  }
+}
