@@ -180,6 +180,16 @@
       "ids": {},
       "registry_name": "yellow_sand",
       "path": "~/block"
+    },
+    {
+      "name": "Sand",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [],
