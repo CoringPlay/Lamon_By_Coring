@@ -14,7 +14,7 @@
     {
       "name": "Sapphireitem",
       "type": "item",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "TitanIngot",
       "type": "item",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -44,7 +44,7 @@
     {
       "name": "TitanIngotFurnace",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -54,7 +54,7 @@
     {
       "name": "Gems",
       "type": "tag",
-      "sortid": 9,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -64,7 +64,7 @@
     {
       "name": "Sapphire",
       "type": "tag",
-      "sortid": 10,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -74,7 +74,7 @@
     {
       "name": "Ingots",
       "type": "tag",
-      "sortid": 11,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -84,7 +84,7 @@
     {
       "name": "Titan",
       "type": "tag",
-      "sortid": 12,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "BeaconPaymentItems",
       "type": "tag",
-      "sortid": 13,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,12 +104,22 @@
     {
       "name": "SapphireBlock",
       "type": "block",
-      "sortid": 14,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_block",
       "path": "~/block/Gems"
+    },
+    {
+      "name": "MiniHome1",
+      "type": "structure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mini_home_1",
+      "path": "~/structures/mini/home"
     }
   ],
   "variable_elements": [],
@@ -168,6 +178,20 @@
       {
         "name": "Craft",
         "children": []
+      },
+      {
+        "name": "structures",
+        "children": [
+          {
+            "name": "mini",
+            "children": [
+              {
+                "name": "home",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
