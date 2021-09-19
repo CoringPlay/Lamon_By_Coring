@@ -114,7 +114,7 @@ public class YellowSandBlock extends LamonByCoringModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 10)).range(70)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 30)).range(70)
 					.square().func_242731_b(10);
 			event.getRegistry().register(feature.setRegistryName("yellow_sand"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:yellow_sand"), configuredFeature);
