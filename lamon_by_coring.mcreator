@@ -190,6 +190,16 @@
       "ids": {},
       "registry_name": "sand",
       "path": "~/tags"
+    },
+    {
+      "name": "Minsand",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minsand",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [],
