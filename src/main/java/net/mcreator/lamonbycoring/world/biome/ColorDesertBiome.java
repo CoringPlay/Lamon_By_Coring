@@ -45,7 +45,7 @@ public class ColorDesertBiome extends LamonByCoringModElements.ModElement {
 						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(9470285).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.SAND.getDefaultState(),
-								Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
+								Blocks.SAND.getDefaultState(), Blocks.SAND.getDefaultState())));
 				biomeGenerationSettings.withStructure(StructureFeatures.STRONGHOLD);
 				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
 				biomeGenerationSettings.withStructure(StructureFeatures.PILLAGER_OUTPOST);
@@ -53,14 +53,14 @@ public class ColorDesertBiome extends LamonByCoringModElements.ModElement {
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(
 								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.CACTUS.getDefaultState()),
-										new ColumnBlockPlacer(1, 2))).tries(2).func_227317_b_().build()));
+										new ColumnBlockPlacer(1, 2))).tries(3).func_227317_b_().build()));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withDesertWells(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.ZOMBIE, 20, 4, 4));
-				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.DESERT).depth(0.1f).scale(0.2f).temperature(2f)
-						.downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.DESERT).depth(0.1f).scale(0.14f)
+						.temperature(2f).downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("lamon_by_coring:color_desert"));
 			}

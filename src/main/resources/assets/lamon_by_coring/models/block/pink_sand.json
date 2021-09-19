@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lamon_by_coring:blocks/pink_sand",
+    "up": "lamon_by_coring:blocks/pink_sand",
+    "north": "lamon_by_coring:blocks/pink_sand",
+    "east": "lamon_by_coring:blocks/pink_sand",
+    "south": "lamon_by_coring:blocks/pink_sand",
+    "west": "lamon_by_coring:blocks/pink_sand",
+    "particle": "lamon_by_coring:blocks/pink_sand"
+  }
+}
