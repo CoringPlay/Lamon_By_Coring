@@ -12,6 +12,45 @@
       },
       {
         "value": "CUSTOM:YellowSand"
+      },
+      {
+        "value": "CUSTOM:BlackSand"
+      },
+      {
+        "value": "CUSTOM:BrownSand"
+      },
+      {
+        "value": "CUSTOM:BlueSand"
+      },
+      {
+        "value": "CUSTOM:WhiteSand"
+      },
+      {
+        "value": "CUSTOM:PinkSand"
+      },
+      {
+        "value": "CUSTOM:OrangeSand"
+      },
+      {
+        "value": "CUSTOM:MagentaSand"
+      },
+      {
+        "value": "CUSTOM:LightBlueSand"
+      },
+      {
+        "value": "CUSTOM:LImeSand"
+      },
+      {
+        "value": "CUSTOM:GraySand"
+      },
+      {
+        "value": "CUSTOM:LightGraySand"
+      },
+      {
+        "value": "CUSTOM:CyanSand"
+      },
+      {
+        "value": "CUSTOM:PurpleSand"
       }
     ],
     "blocks": [],
