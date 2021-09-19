@@ -150,6 +150,36 @@
       "ids": {},
       "registry_name": "meduim_tree_1",
       "path": "~/structures/medium/tree"
+    },
+    {
+      "name": "RedSand",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sand",
+      "path": "~/block"
+    },
+    {
+      "name": "GreenSand",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_sand",
+      "path": "~/block"
+    },
+    {
+      "name": "YellowSand",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_sand",
+      "path": "~/block"
     }
   ],
   "variable_elements": [],
@@ -157,10 +187,13 @@
   "language_map": {
     "en_us": {
       "item.lamon_by_coring.titan_ingot": "Titan Ingot",
+      "block.lamon_by_coring.green_sand": "Red Sand",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
+      "block.lamon_by_coring.red_sand": "Red Sand",
       "item.lamon_by_coring.sapphireitem": "Sapphire",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
-      "block.lamon_by_coring.sapphire_ore": "Sapphire Ore"
+      "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
+      "block.lamon_by_coring.yellow_sand": "Red Sand"
     }
   },
   "foldersRoot": {

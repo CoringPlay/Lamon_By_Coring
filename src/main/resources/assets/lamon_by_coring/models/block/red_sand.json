@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lamon_by_coring:blocks/red_send",
+    "up": "lamon_by_coring:blocks/red_send",
+    "north": "lamon_by_coring:blocks/red_send",
+    "east": "lamon_by_coring:blocks/red_send",
+    "south": "lamon_by_coring:blocks/red_send",
+    "west": "lamon_by_coring:blocks/red_send",
+    "particle": "lamon_by_coring:blocks/red_send"
+  }
+}
