@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "lamon_by_coring:block/sapphire_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "lamon_by_coring:block/sapphire_block"
+    },
+    "axis=z": {
+      "model": "lamon_by_coring:block/sapphire_block",
+      "x": 90
     }
   }
 }
