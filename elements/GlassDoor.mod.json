@@ -17,7 +17,7 @@
     "particleTexture": "",
     "blockBase": "Door",
     "tintType": "No tint",
-    "isItemTinted": false,
+    "isItemTinted": true,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
