@@ -350,6 +350,16 @@
       "ids": {},
       "registry_name": "purple_sand",
       "path": "~/block"
+    },
+    {
+      "name": "TitanBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_block",
+      "path": "~/block/Compresing_Block"
     }
   ],
   "variable_elements": [],
@@ -360,6 +370,7 @@
       "block.lamon_by_coring.l_ime_sand": "Lime Sand",
       "block.lamon_by_coring.green_sand": "Green Sand",
       "block.lamon_by_coring.purple_sand": "Pink Sand",
+      "block.lamon_by_coring.titan_block": "Titan Block",
       "block.lamon_by_coring.cyan_sand": "Yellow Sand",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "block.lamon_by_coring.orange_sand": "Orange Sand",
@@ -400,6 +411,10 @@
           },
           {
             "name": "Gems",
+            "children": []
+          },
+          {
+            "name": "Compresing_Block",
             "children": []
           }
         ]
@@ -469,7 +484,7 @@
     "version": "0.0.1",
     "author": "Coring, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
