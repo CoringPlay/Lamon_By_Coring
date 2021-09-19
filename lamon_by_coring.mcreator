@@ -120,6 +120,36 @@
       "ids": {},
       "registry_name": "mini_home_1",
       "path": "~/structures/mini/home"
+    },
+    {
+      "name": "StorageBlocks",
+      "type": "tag",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storage_blocks",
+      "path": "~/tags/Storage_Blocks"
+    },
+    {
+      "name": "StorageblocksSapphire",
+      "type": "tag",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storageblocks_sapphire",
+      "path": "~/tags/Storage_Blocks"
+    },
+    {
+      "name": "MeduimTree1",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meduim_tree_1",
+      "path": "~/structures/medium/tree"
     }
   ],
   "variable_elements": [],
@@ -172,6 +202,10 @@
           {
             "name": "gems",
             "children": []
+          },
+          {
+            "name": "Storage_Blocks",
+            "children": []
           }
         ]
       },
@@ -190,6 +224,19 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "medium",
+            "children": [
+              {
+                "name": "tree",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "big",
+            "children": []
           }
         ]
       }
