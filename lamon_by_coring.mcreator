@@ -1,0 +1,181 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "TitanOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_ore",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "Sapphireitem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphireitem",
+      "path": "~/item"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "TitanIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_ingot",
+      "path": "~/item/ingot"
+    },
+    {
+      "name": "TitanIngotFurnace",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_ingot_furnace",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Gems",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gems",
+      "path": "~/tags/gems"
+    },
+    {
+      "name": "Sapphire",
+      "type": "tag",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire",
+      "path": "~/tags/gems"
+    },
+    {
+      "name": "Ingots",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ingots",
+      "path": "~/tags"
+    },
+    {
+      "name": "Titan",
+      "type": "tag",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan",
+      "path": "~/tags"
+    },
+    {
+      "name": "BeaconPaymentItems",
+      "type": "tag",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beacon_payment_items",
+      "path": "~/tags"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.lamon_by_coring.titan_ingot": "Titan Ingot",
+      "block.lamon_by_coring.titan_ore": "Titan Ore",
+      "item.lamon_by_coring.sapphireitem": "Sapphire",
+      "block.lamon_by_coring.sapphire_ore": "Sapphire Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "sworld",
+        "children": []
+      },
+      {
+        "name": "achivment",
+        "children": []
+      },
+      {
+        "name": "block",
+        "children": [
+          {
+            "name": "ore",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "item",
+        "children": [
+          {
+            "name": "ingot",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "tags",
+        "children": [
+          {
+            "name": "gems",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Craft",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "lamon_by_coring",
+    "modName": "lamon by Coring",
+    "version": "1.0.0",
+    "author": "Семья, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items",
+      "crafttweaker"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.lamonbycoring",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

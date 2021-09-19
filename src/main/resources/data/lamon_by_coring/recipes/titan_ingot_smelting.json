@@ -1,0 +1,12 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "lamon_by_coring:titan_ore"
+  },
+  "result": {
+    "item": "lamon_by_coring:titan_ingot"
+  }
+}
