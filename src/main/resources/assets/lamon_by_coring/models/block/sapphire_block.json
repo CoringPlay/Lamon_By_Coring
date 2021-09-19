@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lamon_by_coring:blocks/sapphire_block",
+    "up": "lamon_by_coring:blocks/sapphire_block",
+    "north": "lamon_by_coring:blocks/sapphire_block",
+    "east": "lamon_by_coring:blocks/sapphire_block",
+    "south": "lamon_by_coring:blocks/sapphire_block",
+    "west": "lamon_by_coring:blocks/sapphire_block",
+    "particle": "lamon_by_coring:blocks/sapphire_block"
+  }
+}

@@ -100,6 +100,16 @@
       "ids": {},
       "registry_name": "beacon_payment_items",
       "path": "~/tags"
+    },
+    {
+      "name": "SapphireBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_block",
+      "path": "~/block/Gems"
     }
   ],
   "variable_elements": [],
@@ -109,6 +119,7 @@
       "item.lamon_by_coring.titan_ingot": "Titan Ingot",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "item.lamon_by_coring.sapphireitem": "Sapphire",
+      "block.lamon_by_coring.sapphire_block": "Sapphire Block",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore"
     }
   },
@@ -128,6 +139,10 @@
         "children": [
           {
             "name": "ore",
+            "children": []
+          },
+          {
+            "name": "Gems",
             "children": []
           }
         ]
