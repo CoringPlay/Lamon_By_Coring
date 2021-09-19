@@ -5,6 +5,7 @@
   "block.lamon_by_coring.orange_sand": "Orange Sand",
   "biome.lamon_by_coring.color_desert": "Color Desert",
   "block.lamon_by_coring.white_sand": "White Sand",
+  "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
   "block.lamon_by_coring.blue_sand": "Blue Sand",
   "block.lamon_by_coring.black_sand": "Black Sand",
   "block.lamon_by_coring.yellow_sand": "Yellow Sand",
@@ -13,5 +14,6 @@
   "block.lamon_by_coring.sapphire_block": "Sapphire Block",
   "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
   "block.lamon_by_coring.pink_sand": "Pink Sand",
-  "block.lamon_by_coring.brown_sand": "Brown Sand"
+  "block.lamon_by_coring.brown_sand": "Brown Sand",
+  "block.lamon_by_coring.magenta_sand": "Magenta Sand"
 }

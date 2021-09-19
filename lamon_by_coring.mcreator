@@ -280,6 +280,26 @@
       "ids": {},
       "registry_name": "orange_sand",
       "path": "~/block"
+    },
+    {
+      "name": "MagentaSand",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_sand",
+      "path": "~/block"
+    },
+    {
+      "name": "LightBlueSand",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_sand",
+      "path": "~/block"
     }
   ],
   "variable_elements": [],
@@ -292,6 +312,7 @@
       "block.lamon_by_coring.orange_sand": "Orange Sand",
       "biome.lamon_by_coring.color_desert": "Color Desert",
       "block.lamon_by_coring.white_sand": "White Sand",
+      "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
       "block.lamon_by_coring.black_sand": "Black Sand",
       "block.lamon_by_coring.yellow_sand": "Yellow Sand",
@@ -300,7 +321,8 @@
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
-      "block.lamon_by_coring.brown_sand": "Brown Sand"
+      "block.lamon_by_coring.brown_sand": "Brown Sand",
+      "block.lamon_by_coring.magenta_sand": "Magenta Sand"
     }
   },
   "foldersRoot": {
