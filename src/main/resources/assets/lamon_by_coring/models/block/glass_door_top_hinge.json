@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "lamon_by_coring:blocks/glass_door_bottom",
+    "top": "lamon_by_coring:blocks/glass_door_top"
+  }
+}
