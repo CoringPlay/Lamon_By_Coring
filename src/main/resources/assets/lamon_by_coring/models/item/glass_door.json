@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lamon_by_coring:blocks/glass_door_bottom"
+    "layer0": "lamon_by_coring:items/glass_door"
   }
 }
