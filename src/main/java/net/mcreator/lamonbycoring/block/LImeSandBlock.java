@@ -44,11 +44,11 @@ import java.util.List;
 import java.util.Collections;
 
 @LamonByCoringModElements.ModElement.Tag
-public class BlueSandBlock extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:blue_sand")
+public class LImeSandBlock extends LamonByCoringModElements.ModElement {
+	@ObjectHolder("lamon_by_coring:l_ime_sand")
 	public static final Block block = null;
-	public BlueSandBlock(LamonByCoringModElements instance) {
-		super(instance, 25);
+	public LImeSandBlock(LamonByCoringModElements instance) {
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -63,7 +63,7 @@ public class BlueSandBlock extends LamonByCoringModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.25f, 10f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL).setRequiresTool());
-			setRegistryName("blue_sand");
+			setRegistryName("l_ime_sand");
 		}
 
 		@Override
@@ -100,7 +100,8 @@ public class BlueSandBlock extends LamonByCoringModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:blue_sand_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:l_ime_sand_match"),
+					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -115,8 +116,8 @@ public class BlueSandBlock extends LamonByCoringModElements.ModElement {
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 30)).range(70)
 					.square().func_242731_b(10);
-			event.getRegistry().register(feature.setRegistryName("blue_sand"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:blue_sand"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("l_ime_sand"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:l_ime_sand"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

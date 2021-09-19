@@ -300,6 +300,16 @@
       "ids": {},
       "registry_name": "light_blue_sand",
       "path": "~/block"
+    },
+    {
+      "name": "LImeSand",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "l_ime_sand",
+      "path": "~/block"
     }
   ],
   "variable_elements": [],
@@ -307,6 +317,7 @@
   "language_map": {
     "en_us": {
       "item.lamon_by_coring.titan_ingot": "Titan Ingot",
+      "block.lamon_by_coring.l_ime_sand": "Lime Sand",
       "block.lamon_by_coring.green_sand": "Green Sand",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "block.lamon_by_coring.orange_sand": "Orange Sand",

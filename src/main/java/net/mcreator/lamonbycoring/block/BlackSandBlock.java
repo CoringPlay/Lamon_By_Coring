@@ -61,7 +61,7 @@ public class BlackSandBlock extends LamonByCoringModElements.ModElement {
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0f, 10f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.25f, 10f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("black_sand");
 		}
