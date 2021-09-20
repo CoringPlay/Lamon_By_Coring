@@ -45,7 +45,7 @@ import java.util.Collections;
 
 @LamonByCoringModElements.ModElement.Tag
 public class LImeSandBlock extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:l_ime_sand")
+	@ObjectHolder("lamon_by_coring:lime_sand")
 	public static final Block block = null;
 	public LImeSandBlock(LamonByCoringModElements instance) {
 		super(instance, 31);
@@ -63,7 +63,7 @@ public class LImeSandBlock extends LamonByCoringModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.25f, 10f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL).setRequiresTool());
-			setRegistryName("l_ime_sand");
+			setRegistryName("lime_sand");
 		}
 
 		@Override
@@ -100,8 +100,7 @@ public class LImeSandBlock extends LamonByCoringModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:l_ime_sand_match"),
-					() -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:lime_sand_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -116,8 +115,8 @@ public class LImeSandBlock extends LamonByCoringModElements.ModElement {
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 30)).range(70)
 					.square().func_242731_b(10);
-			event.getRegistry().register(feature.setRegistryName("l_ime_sand"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:l_ime_sand"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("lime_sand"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:lime_sand"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "compressed_potato_block"
+        "0": "pressed_potatoes"
       },
       "name": "default"
     }
