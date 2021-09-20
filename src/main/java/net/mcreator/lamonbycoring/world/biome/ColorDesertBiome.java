@@ -71,6 +71,6 @@ public class ColorDesertBiome extends LamonByCoringModElements.ModElement {
 		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)),
 				BiomeDictionary.Type.OVERWORLD, BiomeDictionary.Type.DEAD);
 		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 2));
 	}
 }

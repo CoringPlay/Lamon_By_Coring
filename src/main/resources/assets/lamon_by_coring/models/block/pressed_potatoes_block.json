@@ -1,0 +1,8 @@
+{
+  "parent": "lamon_by_coring:custom/compressed_potato_block",
+  "textures": {
+    "all": "lamon_by_coring:blocks/compressed_potato_block",
+    "particle": "lamon_by_coring:blocks/compressed_potato_block",
+    "0": "lamon_by_coring:blocks/compressed_potato_block"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lamon_by_coring:block/pressed_potatoes_block"
+    },
+    "facing=east": {
+      "model": "lamon_by_coring:block/pressed_potatoes_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lamon_by_coring:block/pressed_potatoes_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lamon_by_coring:block/pressed_potatoes_block",
+      "y": 270
+    }
+  }
+}

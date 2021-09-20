@@ -370,6 +370,16 @@
       "ids": {},
       "registry_name": "glass_door",
       "path": "~/block"
+    },
+    {
+      "name": "PressedPotatoesBlock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pressed_potatoes_block",
+      "path": "~/block/Compresing_Block/Food"
     }
   ],
   "variable_elements": [],
@@ -399,7 +409,8 @@
       "block.lamon_by_coring.red_sand": "Red Sand",
       "item.lamon_by_coring.sapphireitem": "Sapphire",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
-      "block.lamon_by_coring.magenta_sand": "Magenta Sand"
+      "block.lamon_by_coring.magenta_sand": "Magenta Sand",
+      "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes"
     }
   },
   "foldersRoot": {
@@ -426,7 +437,12 @@
           },
           {
             "name": "Compresing_Block",
-            "children": []
+            "children": [
+              {
+                "name": "Food",
+                "children": []
+              }
+            ]
           }
         ]
       },

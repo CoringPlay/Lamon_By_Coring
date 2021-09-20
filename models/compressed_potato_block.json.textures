@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "compressed_potato_block"
+      },
+      "name": "default"
+    }
+  }
+}
