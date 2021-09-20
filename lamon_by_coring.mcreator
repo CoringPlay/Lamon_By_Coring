@@ -182,16 +182,6 @@
       "path": "~/block"
     },
     {
-      "name": "Sand",
-      "type": "tag",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sand",
-      "path": "~/tags"
-    },
-    {
       "name": "Minsand",
       "type": "tag",
       "sortid": 20,
@@ -380,6 +370,16 @@
       "ids": {},
       "registry_name": "pressed_potatoes_block",
       "path": "~/block/Compresing_Block/Food"
+    },
+    {
+      "name": "Sand",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [],
