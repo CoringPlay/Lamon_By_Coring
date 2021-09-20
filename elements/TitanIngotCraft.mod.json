@@ -2,16 +2,42 @@
   "_fv": 24,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
-    "xpReward": 3.0,
-    "cookingTime": 400,
-    "recipeRetstackSize": 1,
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 9,
     "group": "",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:TitanOre"
-    },
-    "smeltingReturnStack": {
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TitanBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
       "value": "CUSTOM:TitanIngot"
     },
     "name": "titan_ingot_craft",

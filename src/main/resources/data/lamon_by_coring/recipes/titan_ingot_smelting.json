@@ -1,16 +1,12 @@
 {
   "group": "lamon_by_coring",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "0"
-  ],
-  "key": {
-    "0": {
-      "item": "lamon_by_coring:titan_block"
-    }
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "lamon_by_coring:titan_ore"
   },
   "result": {
-    "item": "lamon_by_coring:titan_ingot",
-    "count": 1
+    "item": "lamon_by_coring:titan_ingot"
   }
 }
