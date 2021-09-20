@@ -1,14 +1,11 @@
 {
   "group": "lamon_by_coring",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "0"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "lamon_by_coring:titan_block"
     }
-  },
+  ],
   "result": {
     "item": "lamon_by_coring:titan_ingot",
     "count": 9
