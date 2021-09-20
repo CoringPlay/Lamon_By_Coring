@@ -182,16 +182,6 @@
       "path": "~/block"
     },
     {
-      "name": "Minsand",
-      "type": "tag",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "minsand",
-      "path": "~/tags"
-    },
-    {
       "name": "SapphireBlockCraft",
       "type": "recipe",
       "sortid": 21,
@@ -380,6 +370,46 @@
       "ids": {},
       "registry_name": "sand",
       "path": "~/tags"
+    },
+    {
+      "name": "TitanBlockCraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_block_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "TitanNagget",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_nagget",
+      "path": "~/item/nagget"
+    },
+    {
+      "name": "TitanNaggetCraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_nagget_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "TitanIngotCraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_ingot_craft",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -404,6 +434,7 @@
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "block.lamon_by_coring.orange_sand": "Orange Sand",
       "block.lamon_by_coring.glass_door": "Glass Door",
+      "item.lamon_by_coring.titan_nagget": "Titan Nagget",
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
       "block.lamon_by_coring.red_sand": "Red Sand",
@@ -451,6 +482,10 @@
         "children": [
           {
             "name": "ingot",
+            "children": []
+          },
+          {
+            "name": "nagget",
             "children": []
           }
         ]

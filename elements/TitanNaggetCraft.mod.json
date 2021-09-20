@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:TitanBlock"
+        "value": "CUSTOM:TitanIngot"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TitanIngot"
+      "value": "CUSTOM:TitanNagget"
     },
-    "name": "titan_ingot_smelting",
+    "name": "titan_nagget_craft",
     "namespace": "mod"
   }
 }

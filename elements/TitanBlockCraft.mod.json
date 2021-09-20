@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": "CUSTOM:TitanBlock"
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TitanIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TitanIngot"
+      "value": "CUSTOM:TitanBlock"
     },
-    "name": "titan_ingot_smelting",
+    "name": "titan_block",
     "namespace": "mod"
   }
 }

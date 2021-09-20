@@ -6,11 +6,11 @@
   ],
   "key": {
     "0": {
-      "item": "lamon_by_coring:titan_block"
+      "item": "lamon_by_coring:titan_ingot"
     }
   },
   "result": {
-    "item": "lamon_by_coring:titan_ingot",
-    "count": 1
+    "item": "lamon_by_coring:titan_nagget",
+    "count": 9
   }
 }
