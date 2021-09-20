@@ -14,7 +14,7 @@
     {
       "name": "Sapphireitem",
       "type": "item",
-      "sortid": 4,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "TitanIngot",
       "type": "item",
-      "sortid": 5,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -44,7 +44,7 @@
     {
       "name": "TitanIngotFurnace",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -54,7 +54,7 @@
     {
       "name": "Gems",
       "type": "tag",
-      "sortid": 7,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -64,7 +64,7 @@
     {
       "name": "Sapphire",
       "type": "tag",
-      "sortid": 8,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -74,7 +74,7 @@
     {
       "name": "Ingots",
       "type": "tag",
-      "sortid": 9,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -84,7 +84,7 @@
     {
       "name": "Titan",
       "type": "tag",
-      "sortid": 10,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "BeaconPaymentItems",
       "type": "tag",
-      "sortid": 11,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,7 +104,7 @@
     {
       "name": "SapphireBlock",
       "type": "block",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -114,7 +114,7 @@
     {
       "name": "MiniHome1",
       "type": "structure",
-      "sortid": 12,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -124,7 +124,7 @@
     {
       "name": "StorageBlocks",
       "type": "tag",
-      "sortid": 13,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -134,7 +134,7 @@
     {
       "name": "StorageblocksSapphire",
       "type": "tag",
-      "sortid": 14,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -144,7 +144,7 @@
     {
       "name": "MeduimTree1",
       "type": "structure",
-      "sortid": 15,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +154,7 @@
     {
       "name": "RedSand",
       "type": "block",
-      "sortid": 16,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -164,7 +164,7 @@
     {
       "name": "GreenSand",
       "type": "block",
-      "sortid": 17,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -174,7 +174,7 @@
     {
       "name": "YellowSand",
       "type": "block",
-      "sortid": 18,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "SapphireBlockCraft",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -194,7 +194,7 @@
     {
       "name": "BlackSand",
       "type": "block",
-      "sortid": 22,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -204,7 +204,7 @@
     {
       "name": "BrownSand",
       "type": "block",
-      "sortid": 23,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -214,7 +214,7 @@
     {
       "name": "ColorDesert",
       "type": "biome",
-      "sortid": 24,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,7 +224,7 @@
     {
       "name": "BlueSand",
       "type": "block",
-      "sortid": 25,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -234,7 +234,7 @@
     {
       "name": "WhiteSand",
       "type": "block",
-      "sortid": 26,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +244,7 @@
     {
       "name": "PinkSand",
       "type": "block",
-      "sortid": 27,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -254,7 +254,7 @@
     {
       "name": "OrangeSand",
       "type": "block",
-      "sortid": 28,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +264,7 @@
     {
       "name": "MagentaSand",
       "type": "block",
-      "sortid": 29,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +274,7 @@
     {
       "name": "LightBlueSand",
       "type": "block",
-      "sortid": 30,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -284,7 +284,7 @@
     {
       "name": "LImeSand",
       "type": "block",
-      "sortid": 31,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -294,7 +294,7 @@
     {
       "name": "GraySand",
       "type": "block",
-      "sortid": 32,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -304,7 +304,7 @@
     {
       "name": "LightGraySand",
       "type": "block",
-      "sortid": 33,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +314,7 @@
     {
       "name": "CyanSand",
       "type": "block",
-      "sortid": 34,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -324,7 +324,7 @@
     {
       "name": "PurpleSand",
       "type": "block",
-      "sortid": 35,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -334,7 +334,7 @@
     {
       "name": "TitanBlock",
       "type": "block",
-      "sortid": 36,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -344,7 +344,7 @@
     {
       "name": "GlassDoor",
       "type": "block",
-      "sortid": 37,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -354,7 +354,7 @@
     {
       "name": "PressedPotatoesBlock",
       "type": "block",
-      "sortid": 39,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -364,7 +364,7 @@
     {
       "name": "Sand",
       "type": "tag",
-      "sortid": 40,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -374,7 +374,7 @@
     {
       "name": "TitanBlockCraft",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -384,7 +384,7 @@
     {
       "name": "TitanNagget",
       "type": "item",
-      "sortid": 42,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -394,7 +394,7 @@
     {
       "name": "TitanNaggetCraft",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +404,7 @@
     {
       "name": "TitanIngotCraft",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -414,7 +414,7 @@
     {
       "name": "TitanHelmet",
       "type": "armor",
-      "sortid": 45,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -430,7 +430,7 @@
     {
       "name": "AllSand",
       "type": "achievement",
-      "sortid": 46,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -440,7 +440,7 @@
     {
       "name": "AllSandProcedur",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -467,8 +467,8 @@
       "block.lamon_by_coring.cyan_sand": "Cyan Sand",
       "item.lamon_by_coring.titan_helmet": "Titan Helmet",
       "biome.lamon_by_coring.color_desert": "Color Desert",
-      "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.white_sand": "White Sand",
+      "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.light_gray_sand": "Light Gray Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
       "block.lamon_by_coring.black_sand": "Black Sand",
