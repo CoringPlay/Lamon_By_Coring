@@ -9,7 +9,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titan_ore",
-      "path": "~/block/ore"
+      "path": "~/Block/ore"
     },
     {
       "name": "Sapphireitem",
@@ -19,7 +19,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphireitem",
-      "path": "~/item"
+      "path": "~/Item"
     },
     {
       "name": "SapphireOre",
@@ -29,7 +29,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_ore",
-      "path": "~/block/ore"
+      "path": "~/Block/ore"
     },
     {
       "name": "TitanIngot",
@@ -39,7 +39,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titan_ingot",
-      "path": "~/item/ingot"
+      "path": "~/Item/ingot"
     },
     {
       "name": "TitanIngotFurnace",
@@ -59,7 +59,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gems",
-      "path": "~/tags/gems"
+      "path": "~/Tags/gems"
     },
     {
       "name": "Sapphire",
@@ -69,7 +69,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire",
-      "path": "~/tags/gems"
+      "path": "~/Tags/gems"
     },
     {
       "name": "Ingots",
@@ -79,7 +79,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ingots",
-      "path": "~/tags"
+      "path": "~/Tags"
     },
     {
       "name": "Titan",
@@ -89,7 +89,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titan",
-      "path": "~/tags"
+      "path": "~/Tags"
     },
     {
       "name": "BeaconPaymentItems",
@@ -99,7 +99,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "beacon_payment_items",
-      "path": "~/tags"
+      "path": "~/Tags"
     },
     {
       "name": "SapphireBlock",
@@ -109,7 +109,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_block",
-      "path": "~/block/Gems"
+      "path": "~/Block/Gems"
     },
     {
       "name": "MiniHome1",
@@ -119,7 +119,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mini_home_1",
-      "path": "~/structures/mini/home"
+      "path": "~/Structures/mini/home"
     },
     {
       "name": "StorageBlocks",
@@ -129,7 +129,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "storage_blocks",
-      "path": "~/tags/Storage_Blocks"
+      "path": "~/Tags/Storage_Blocks"
     },
     {
       "name": "StorageblocksSapphire",
@@ -139,7 +139,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "storageblocks_sapphire",
-      "path": "~/tags/Storage_Blocks"
+      "path": "~/Tags/Storage_Blocks"
     },
     {
       "name": "MeduimTree1",
@@ -149,7 +149,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "meduim_tree_1",
-      "path": "~/structures/medium/tree"
+      "path": "~/Structures/medium/tree"
     },
     {
       "name": "RedSand",
@@ -159,7 +159,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "red_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "GreenSand",
@@ -169,7 +169,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "green_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "YellowSand",
@@ -179,7 +179,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "yellow_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "SapphireBlockCraft",
@@ -199,7 +199,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "black_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "BrownSand",
@@ -209,7 +209,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "brown_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "ColorDesert",
@@ -219,7 +219,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "color_desert",
-      "path": "~/bioms"
+      "path": "~/Biomes"
     },
     {
       "name": "BlueSand",
@@ -229,7 +229,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blue_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "WhiteSand",
@@ -239,7 +239,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "white_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "PinkSand",
@@ -249,7 +249,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pink_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "OrangeSand",
@@ -259,7 +259,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "orange_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "MagentaSand",
@@ -269,7 +269,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magenta_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "LightBlueSand",
@@ -279,7 +279,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "light_blue_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "LImeSand",
@@ -289,7 +289,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lime_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "GraySand",
@@ -299,7 +299,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gray_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "LightGraySand",
@@ -309,7 +309,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "light_gray_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "CyanSand",
@@ -319,7 +319,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cyan_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "PurpleSand",
@@ -329,7 +329,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "purple_sand",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "TitanBlock",
@@ -339,7 +339,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titan_block",
-      "path": "~/block/Compresing_Block"
+      "path": "~/Block/Compresing_Block"
     },
     {
       "name": "GlassDoor",
@@ -349,7 +349,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glass_door",
-      "path": "~/block"
+      "path": "~/Block"
     },
     {
       "name": "PressedPotatoesBlock",
@@ -359,7 +359,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pressed_potatoes_block",
-      "path": "~/block/Compresing_Block/Food"
+      "path": "~/Block/Compresing_Block/Food"
     },
     {
       "name": "Sand",
@@ -369,7 +369,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sand",
-      "path": "~/tags"
+      "path": "~/Tags"
     },
     {
       "name": "TitanBlockCraft",
@@ -389,7 +389,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titan_nagget",
-      "path": "~/item/nagget"
+      "path": "~/Item/nagget"
     },
     {
       "name": "TitanNaggetCraft",
@@ -410,6 +410,22 @@
       "ids": {},
       "registry_name": "titan_ingot_craft",
       "path": "~/Craft"
+    },
+    {
+      "name": "TitanHelmet",
+      "type": "armor",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
     }
   ],
   "variable_elements": [],
@@ -421,18 +437,21 @@
       "block.lamon_by_coring.purple_sand": "Pink Sand",
       "block.lamon_by_coring.titan_block": "Titan Block",
       "block.lamon_by_coring.cyan_sand": "Cyan Sand",
+      "item.lamon_by_coring.titan_helmet": "Titan Helmet",
       "biome.lamon_by_coring.color_desert": "Color Desert",
-      "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.white_sand": "White Sand",
+      "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.light_gray_sand": "Light Gray Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
       "block.lamon_by_coring.black_sand": "Black Sand",
       "block.lamon_by_coring.yellow_sand": "Yellow Sand",
+      "item.lamon_by_coring.titan_leggings": "Titan Leggings",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
       "block.lamon_by_coring.brown_sand": "Brown Sand",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "block.lamon_by_coring.orange_sand": "Orange Sand",
+      "item.lamon_by_coring.titan_boots": "Titan Boots",
       "block.lamon_by_coring.glass_door": "Glass Door",
       "item.lamon_by_coring.titan_nagget": "Titan Nagget",
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
@@ -440,6 +459,7 @@
       "block.lamon_by_coring.red_sand": "Red Sand",
       "item.lamon_by_coring.sapphireitem": "Sapphire",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
+      "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
       "block.lamon_by_coring.magenta_sand": "Magenta Sand",
       "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes"
     }
@@ -448,15 +468,15 @@
     "name": "~",
     "children": [
       {
-        "name": "tool",
+        "name": "Tool",
         "children": []
       },
       {
-        "name": "achivment",
+        "name": "Achivment",
         "children": []
       },
       {
-        "name": "block",
+        "name": "Block",
         "children": [
           {
             "name": "ore",
@@ -478,7 +498,7 @@
         ]
       },
       {
-        "name": "item",
+        "name": "Item",
         "children": [
           {
             "name": "ingot",
@@ -491,7 +511,7 @@
         ]
       },
       {
-        "name": "tags",
+        "name": "Tags",
         "children": [
           {
             "name": "gems",
@@ -509,11 +529,15 @@
           {
             "name": "Vanila",
             "children": []
+          },
+          {
+            "name": "Craft Tool",
+            "children": []
           }
         ]
       },
       {
-        "name": "structures",
+        "name": "Structures",
         "children": [
           {
             "name": "mini",
@@ -540,7 +564,11 @@
         ]
       },
       {
-        "name": "bioms",
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Armor",
         "children": []
       }
     ]
