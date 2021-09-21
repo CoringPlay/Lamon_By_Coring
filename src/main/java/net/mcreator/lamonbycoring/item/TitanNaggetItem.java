@@ -16,7 +16,7 @@ public class TitanNaggetItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titan_nagget")
 	public static final Item block = null;
 	public TitanNaggetItem(LamonByCoringModElements instance) {
-		super(instance, 42);
+		super(instance, 23);
 	}
 
 	@Override

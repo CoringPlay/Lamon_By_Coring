@@ -18,7 +18,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphireitem",
+      "registry_name": "sapphire_item",
       "path": "~/Item"
     },
     {
@@ -454,6 +454,16 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "SapphireDrop",
+      "type": "loottable",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_drop",
+      "path": "~/Loot Drop/Block"
     }
   ],
   "variable_elements": [],
@@ -487,9 +497,9 @@
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
       "block.lamon_by_coring.red_sand": "Red Sand",
-      "item.lamon_by_coring.sapphireitem": "Sapphire",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
+      "item.lamon_by_coring.sapphire_item": "Sapphire",
       "block.lamon_by_coring.magenta_sand": "Magenta Sand",
       "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes"
     }
@@ -604,6 +614,15 @@
       {
         "name": "Procedures",
         "children": []
+      },
+      {
+        "name": "Loot Drop",
+        "children": [
+          {
+            "name": "Block",
+            "children": []
+          }
+        ]
       }
     ]
   },

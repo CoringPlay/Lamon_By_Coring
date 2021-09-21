@@ -3,31 +3,31 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     },
     {
-      "item": "lamon_by_coring:sapphireitem"
+      "item": "lamon_by_coring:sapphire_item"
     }
   ],
   "result": {

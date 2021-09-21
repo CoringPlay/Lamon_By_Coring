@@ -13,10 +13,10 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 @LamonByCoringModElements.ModElement.Tag
 public class SapphireitemItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:sapphireitem")
+	@ObjectHolder("lamon_by_coring:sapphire_item")
 	public static final Item block = null;
 	public SapphireitemItem(LamonByCoringModElements instance) {
-		super(instance, 4);
+		super(instance, 21);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class SapphireitemItem extends LamonByCoringModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.UNCOMMON));
-			setRegistryName("sapphireitem");
+			setRegistryName("sapphire_item");
 		}
 
 		@Override
