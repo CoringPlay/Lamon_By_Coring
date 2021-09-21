@@ -2,7 +2,7 @@
 // Exported for Minecraft version 1.15 - 1.16 with MCP mappings
 // Paste this class into your mod and generate all required imports
 
-public static class Modelcustom_model extends EntityModel<Entity> {
+public static class titan_armor extends EntityModel<Entity> {
 	private final ModelRenderer head;
 	private final ModelRenderer body;
 	private final ModelRenderer left_shoe;
@@ -10,7 +10,7 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 	private final ModelRenderer left_arm;
 	private final ModelRenderer right_arm;
 
-	public Modelcustom_model() {
+	public titan_armor() {
 		textureWidth = 64;
 		textureHeight = 32;
 

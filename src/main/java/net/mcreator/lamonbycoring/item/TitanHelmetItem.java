@@ -37,7 +37,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titan_boots")
 	public static final Item boots = null;
 	public TitanHelmetItem(LamonByCoringModElements instance) {
-		super(instance, 45);
+		super(instance, 26);
 	}
 
 	@Override
@@ -89,7 +89,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
 				BipedModel armorModel = new BipedModel(1);
-				armorModel.bipedHead = new Modelcustom_model().head;
+				armorModel.bipedHead = new titan_armor().head;
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isSitting = defaultModel.isSitting;
 				armorModel.isChild = living.isChild();
@@ -106,9 +106,9 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
 				BipedModel armorModel = new BipedModel(1);
-				armorModel.bipedBody = new Modelcustom_model().body;
-				armorModel.bipedLeftArm = new Modelcustom_model().left_arm;
-				armorModel.bipedRightArm = new Modelcustom_model().right_arm;
+				armorModel.bipedBody = new titan_armor().body;
+				armorModel.bipedLeftArm = new titan_armor().left_arm;
+				armorModel.bipedRightArm = new titan_armor().right_arm;
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isSitting = defaultModel.isSitting;
 				armorModel.isChild = living.isChild();
@@ -125,8 +125,8 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
 				BipedModel armorModel = new BipedModel(1);
-				armorModel.bipedLeftLeg = new Modelcustom_model().left_shoe;
-				armorModel.bipedRightLeg = new Modelcustom_model().right_shoe;
+				armorModel.bipedLeftLeg = new titan_armor().left_shoe;
+				armorModel.bipedRightLeg = new titan_armor().right_shoe;
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isSitting = defaultModel.isSitting;
 				armorModel.isChild = living.isChild();
@@ -143,8 +143,8 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
 				BipedModel armorModel = new BipedModel(1);
-				armorModel.bipedLeftLeg = new Modelcustom_model().left_shoe;
-				armorModel.bipedRightLeg = new Modelcustom_model().right_shoe;
+				armorModel.bipedLeftLeg = new titan_armor().left_shoe;
+				armorModel.bipedRightLeg = new titan_armor().right_shoe;
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isSitting = defaultModel.isSitting;
 				armorModel.isChild = living.isChild();
@@ -160,14 +160,14 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 	// Made with Blockbench 3.9.3
 	// Exported for Minecraft version 1.15 - 1.16 with MCP mappings
 	// Paste this class into your mod and generate all required imports
-	public static class Modelcustom_model extends EntityModel<Entity> {
+	public static class titan_armor extends EntityModel<Entity> {
 		private final ModelRenderer head;
 		private final ModelRenderer body;
 		private final ModelRenderer left_shoe;
 		private final ModelRenderer right_shoe;
 		private final ModelRenderer left_arm;
 		private final ModelRenderer right_arm;
-		public Modelcustom_model() {
+		public titan_armor() {
 			textureWidth = 64;
 			textureHeight = 32;
 			head = new ModelRenderer(this);
