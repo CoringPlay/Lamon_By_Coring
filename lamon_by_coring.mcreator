@@ -524,6 +524,166 @@
       "ids": {},
       "registry_name": "titan_boots",
       "path": "~/Craft/Craft_Armor/Titan_Armor"
+    },
+    {
+      "name": "RedSandCraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "BlackSandCraft",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "YellowSandCraft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "WhiteSandCraft",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "PurpleSandCraft",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "PinkSandCraft",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "OrangeSandCraft",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "MagentaSandCraft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "LightGraySandCraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_gray_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "LightBlueCraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "BlueSandCraft",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "BrownSandCraft",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "CyanSandCraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "GraySandCraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gray_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "GreenSandCraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_sand_craft",
+      "path": "~/Craft/Sand"
+    },
+    {
+      "name": "LimeSandCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_sand_craft",
+      "path": "~/Craft/Sand"
     }
   ],
   "variable_elements": [],
@@ -537,8 +697,8 @@
       "block.lamon_by_coring.cyan_sand": "Cyan Sand",
       "item.lamon_by_coring.titan_helmet": "Titan Helmet",
       "biome.lamon_by_coring.color_desert": "Color Desert",
-      "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.white_sand": "White Sand",
+      "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.light_gray_sand": "Light Gray Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
       "block.lamon_by_coring.black_sand": "Black Sand",
@@ -643,6 +803,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Sand",
+            "children": []
           }
         ]
       },
