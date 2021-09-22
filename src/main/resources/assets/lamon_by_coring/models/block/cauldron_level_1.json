@@ -1,0 +1,12 @@
+{
+  "parent": "lamon_by_coring:custom/cauldron_level1",
+  "textures": {
+    "all": "lamon_by_coring:blocks/cauldron_side",
+    "particle": "lamon_by_coring:blocks/cauldron_side",
+    "side": "lamon_by_coring:blocks/cauldron_side",
+    "top": "lamon_by_coring:blocks/cauldron_top",
+    "bottom": "lamon_by_coring:blocks/cauldron_bottom",
+    "inside": "lamon_by_coring:blocks/cauldron_inner",
+    "water": "lamon_by_coring:blocks/slime_block"
+  }
+}

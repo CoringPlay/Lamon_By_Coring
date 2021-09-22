@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lamon_by_coring:block/cauldron_level_1"
+    },
+    "facing=east": {
+      "model": "lamon_by_coring:block/cauldron_level_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lamon_by_coring:block/cauldron_level_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lamon_by_coring:block/cauldron_level_1",
+      "y": 270
+    }
+  }
+}
