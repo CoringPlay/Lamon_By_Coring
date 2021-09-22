@@ -1,0 +1,24 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "1": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "2": {
+      "tag": "forge:rods"
+    }
+  },
+  "result": {
+    "item": "lamon_by_coring:titansword",
+    "count": 1
+  }
+}

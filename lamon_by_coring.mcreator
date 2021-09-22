@@ -464,6 +464,26 @@
       "ids": {},
       "registry_name": "sapphire_drop",
       "path": "~/Loot Drop/Block"
+    },
+    {
+      "name": "Titansword",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titansword",
+      "path": "~/Tool"
+    },
+    {
+      "name": "TitanSwordCraft",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_sword_craft",
+      "path": "~/Craft/Craft Tool"
     }
   ],
   "variable_elements": [],
@@ -497,6 +517,7 @@
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
       "block.lamon_by_coring.red_sand": "Red Sand",
+      "item.lamon_by_coring.titansword": "Titan Sword",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
       "item.lamon_by_coring.sapphire_item": "Sapphire",
