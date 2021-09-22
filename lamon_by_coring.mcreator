@@ -484,6 +484,46 @@
       "ids": {},
       "registry_name": "titan_sword_craft",
       "path": "~/Craft/Craft Tool"
+    },
+    {
+      "name": "TitanHelmetCraft",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_helmet_craft",
+      "path": "~/Craft/Craft_Armor/Titan_Armor"
+    },
+    {
+      "name": "TitanChestplate",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_chestplate",
+      "path": "~/Craft/Craft_Armor/Titan_Armor"
+    },
+    {
+      "name": "TitanLeggins",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_leggins",
+      "path": "~/Craft/Craft_Armor/Titan_Armor"
+    },
+    {
+      "name": "TitanBoots",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_boots",
+      "path": "~/Craft/Craft_Armor/Titan_Armor"
     }
   ],
   "variable_elements": [],
@@ -497,8 +537,8 @@
       "block.lamon_by_coring.cyan_sand": "Cyan Sand",
       "item.lamon_by_coring.titan_helmet": "Titan Helmet",
       "biome.lamon_by_coring.color_desert": "Color Desert",
-      "block.lamon_by_coring.white_sand": "White Sand",
       "block.lamon_by_coring.lime_sand": "Lime Sand",
+      "block.lamon_by_coring.white_sand": "White Sand",
       "block.lamon_by_coring.light_gray_sand": "Light Gray Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
       "block.lamon_by_coring.black_sand": "Black Sand",
@@ -594,6 +634,15 @@
           {
             "name": "Craft Tool",
             "children": []
+          },
+          {
+            "name": "Craft_Armor",
+            "children": [
+              {
+                "name": "Titan_Armor",
+                "children": []
+              }
+            ]
           }
         ]
       },

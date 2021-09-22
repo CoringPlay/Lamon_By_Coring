@@ -1,0 +1,39 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "2": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "3": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "4": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "5": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "6": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "7": {
+      "item": "lamon_by_coring:titan_ingot"
+    },
+    "8": {
+      "item": "lamon_by_coring:titan_ingot"
+    }
+  },
+  "result": {
+    "item": "lamon_by_coring:titan_chestplate",
+    "count": 1
+  }
+}
