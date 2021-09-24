@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:Sapphireitem"
+      },
+      {
+        "value": "CUSTOM:TitanBlock"
       }
     ],
     "blocks": [],

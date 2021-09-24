@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "lamon_by_coring:sapphire_item"
+    "lamon_by_coring:sapphire_item",
+    "lamon_by_coring:titan_block"
   ]
 }
