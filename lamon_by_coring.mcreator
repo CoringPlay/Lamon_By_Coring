@@ -810,16 +810,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "FrostyLogs",
-      "type": "block",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frosty_logs",
-      "path": "~/Block/Tree/Frosty tree"
-    },
-    {
       "name": "Frostytreesmall1",
       "type": "structure",
       "sortid": 80,
@@ -838,6 +828,46 @@
       "ids": {},
       "registry_name": "titan_shovel",
       "path": "~/Tool"
+    },
+    {
+      "name": "Frostylogs",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frosty_logs",
+      "path": "~/Block/Tree/Frosty tree"
+    },
+    {
+      "name": "FrostyPlancks",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frosty_plancks",
+      "path": "~/Block/Tree/Frosty tree"
+    },
+    {
+      "name": "FrostyLogsCraft",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frosty_logs_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Planks",
+      "type": "tag",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planks",
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [],
@@ -860,8 +890,9 @@
       "advancements.all_sand.descr": "Collect all the colors of the sand",
       "item.lamon_by_coring.titan_pickaxe": "Titan Pickaxe",
       "block.lamon_by_coring.yellow_sand": "Yellow Sand",
-      "block.lamon_by_coring.frosty_logs": "Frosty Logs",
+      "block.lamon_by_coring.frosty_logs": "Frosty Foliage",
       "item.lamon_by_coring.titan_leggings": "Titan Leggings",
+      "block.lamon_by_coring.frosty_plancks": "Frosty Plancks",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
       "block.lamon_by_coring.brown_sand": "Brown Sand",

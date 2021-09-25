@@ -5,13 +5,13 @@
     "type": "Items",
     "items": [
       {
-        "value": "CUSTOM:Frostylogs"
+        "value": "CUSTOM:FrostyPlancks"
       }
     ],
     "blocks": [],
     "functions": [],
     "entities": [],
-    "name": "logs",
+    "name": "planks",
     "namespace": "minecraft"
   }
 }

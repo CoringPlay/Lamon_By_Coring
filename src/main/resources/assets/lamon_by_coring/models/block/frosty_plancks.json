@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lamon_by_coring:blocks/frosy_planks",
+    "up": "lamon_by_coring:blocks/frosy_planks",
+    "north": "lamon_by_coring:blocks/frosy_planks",
+    "east": "lamon_by_coring:blocks/frosy_planks",
+    "south": "lamon_by_coring:blocks/frosy_planks",
+    "west": "lamon_by_coring:blocks/frosy_planks",
+    "particle": "lamon_by_coring:blocks/frosy_planks"
+  }
+}
