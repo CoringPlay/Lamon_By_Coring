@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lamon_by_coring:blocks/frosty_logs_top",
+    "up": "lamon_by_coring:blocks/frosty_logs_top",
+    "north": "lamon_by_coring:blocks/frosty_logs",
+    "east": "lamon_by_coring:blocks/frosty_logs",
+    "south": "lamon_by_coring:blocks/frosty_logs",
+    "west": "lamon_by_coring:blocks/frosty_logs",
+    "particle": "lamon_by_coring:blocks/frosty_logs_top"
+  }
+}

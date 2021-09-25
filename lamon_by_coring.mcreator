@@ -472,7 +472,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titansword",
+      "registry_name": "titan_sword",
       "path": "~/Tool"
     },
     {
@@ -748,6 +748,96 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "TitanPickaxe",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_pickaxe",
+      "path": "~/Tool"
+    },
+    {
+      "name": "FrostyFoliage",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frosty_foliage",
+      "path": "~/Block/Tree/Frosty tree"
+    },
+    {
+      "name": "SlimeBlock",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_block",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "Slimeball",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimeball",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "LeavesBlock",
+      "type": "tag",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_block",
+      "path": "~/Tags"
+    },
+    {
+      "name": "LogsBlock",
+      "type": "tag",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logs_block",
+      "path": "~/Tags"
+    },
+    {
+      "name": "FrostyLogs",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frosty_logs",
+      "path": "~/Block/Tree/Frosty tree"
+    },
+    {
+      "name": "Frostytreesmall1",
+      "type": "structure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frosty_tree_small_1",
+      "path": "~/Structures/mini/tree"
+    },
+    {
+      "name": "TitanShovel",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_shovel",
+      "path": "~/Tool"
     }
   ],
   "variable_elements": [],
@@ -763,11 +853,14 @@
       "biome.lamon_by_coring.color_desert": "Color Desert",
       "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.white_sand": "White Sand",
+      "block.lamon_by_coring.frosty_foliage": "Frosty Foliage",
       "block.lamon_by_coring.light_gray_sand": "Light Gray Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
       "block.lamon_by_coring.black_sand": "Black Sand",
       "advancements.all_sand.descr": "Collect all the colors of the sand",
+      "item.lamon_by_coring.titan_pickaxe": "Titan Pickaxe",
       "block.lamon_by_coring.yellow_sand": "Yellow Sand",
+      "block.lamon_by_coring.frosty_logs": "Frosty Logs",
       "item.lamon_by_coring.titan_leggings": "Titan Leggings",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
@@ -776,6 +869,7 @@
       "block.lamon_by_coring.orange_sand": "Orange Sand",
       "item.lamon_by_coring.titan_boots": "Titan Boots",
       "advancements.all_sand.title": "All Sand",
+      "item.lamon_by_coring.titan_sword": "Titan Sword",
       "block.lamon_by_coring.glass_door": "Glass Door",
       "block.lamon_by_coring.cauldron_level_3": "Cauldron",
       "item.lamon_by_coring.titan_nagget": "Titan Nagget",
@@ -784,9 +878,9 @@
       "block.lamon_by_coring.cauldron_level_2": "Cauldron",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
       "block.lamon_by_coring.red_sand": "Red Sand",
-      "item.lamon_by_coring.titansword": "Titan Sword",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
+      "item.lamon_by_coring.titan_shovel": "Titan Shovel",
       "item.lamon_by_coring.sapphire_item": "Sapphire",
       "block.lamon_by_coring.magenta_sand": "Magenta Sand",
       "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes"
@@ -819,6 +913,15 @@
             "children": [
               {
                 "name": "Food",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tree",
+            "children": [
+              {
+                "name": "Frosty tree",
                 "children": []
               }
             ]
@@ -885,6 +988,10 @@
             "children": [
               {
                 "name": "home",
+                "children": []
+              },
+              {
+                "name": "tree",
                 "children": []
               }
             ]

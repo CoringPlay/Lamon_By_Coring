@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lamon_by_coring:block/frosty_logs",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lamon_by_coring:block/frosty_logs"
+    },
+    "axis=z": {
+      "model": "lamon_by_coring:block/frosty_logs",
+      "x": 90
+    }
+  }
+}

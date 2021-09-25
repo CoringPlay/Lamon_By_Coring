@@ -38,55 +38,80 @@ public class AllSandProcedurProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(RedSandBlock.block)) : false)
-				&& ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(GreenSandBlock.block)) : false))
-				&& (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(YellowSandBlock.block)) : false)
-						&& ((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(BlackSandBlock.block))
-								: false)))
-				&& ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(BrownSandBlock.block)) : false)
-						&& ((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(BlueSandBlock.block))
-								: false))
-						&& (((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(WhiteSandBlock.block))
-								: false)
-								&& ((entity instanceof PlayerEntity)
-										? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(PinkSandBlock.block))
-										: false))))
-				&& (((((entity instanceof PlayerEntity)
-						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(OrangeSandBlock.block))
-						: false)
-						&& ((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MagentaSandBlock.block))
-								: false))
-						&& (((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(LightBlueSandBlock.block))
-								: false)
-								&& ((entity instanceof PlayerEntity)
-										? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(LImeSandBlock.block))
-										: false)))
-						&& ((((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(GraySandBlock.block))
-								: false)
-								&& ((entity instanceof PlayerEntity)
-										? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(LightGraySandBlock.block))
-										: false))
-								&& (((entity instanceof PlayerEntity)
-										? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(CyanSandBlock.block))
-										: false)
-										&& ((entity instanceof PlayerEntity)
+		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(OrangeSandBlock.block)) : false)) {
+			if (((entity instanceof PlayerEntity)
+					? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(LightBlueSandBlock.block))
+					: false)) {
+				if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(LImeSandBlock.block)) : false)) {
+					if (((entity instanceof PlayerEntity)
+							? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(RedSandBlock.block))
+							: false)) {
+						if (((entity instanceof PlayerEntity)
+								? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(GreenSandBlock.block))
+								: false)) {
+							if (((entity instanceof PlayerEntity)
+									? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(YellowSandBlock.block))
+									: false)) {
+								if (((entity instanceof PlayerEntity)
+										? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MagentaSandBlock.block))
+										: false)) {
+									if (((entity instanceof PlayerEntity)
+											? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(CyanSandBlock.block))
+											: false)) {
+										if (((entity instanceof PlayerEntity)
 												? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(PurpleSandBlock.block))
-												: false)))))) {
-			if (entity instanceof ServerPlayerEntity) {
-				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-						.getAdvancement(new ResourceLocation("lamon_by_coring:all_sand"));
-				AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
-				if (!_ap.isDone()) {
-					Iterator _iterator = _ap.getRemaningCriteria().iterator();
-					while (_iterator.hasNext()) {
-						String _criterion = (String) _iterator.next();
-						((ServerPlayerEntity) entity).getAdvancements().grantCriterion(_adv, _criterion);
+												: false)) {
+											if (((entity instanceof PlayerEntity)
+													? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(GraySandBlock.block))
+													: false)) {
+												if (((entity instanceof PlayerEntity)
+														? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(LightGraySandBlock.block))
+														: false)) {
+													if (((entity instanceof PlayerEntity)
+															? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(BrownSandBlock.block))
+															: false)) {
+														if (((entity instanceof PlayerEntity)
+																? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(BlueSandBlock.block))
+																: false)) {
+															if (((entity instanceof PlayerEntity)
+																	? ((PlayerEntity) entity).inventory
+																			.hasItemStack(new ItemStack(BlackSandBlock.block))
+																	: false)) {
+																if (((entity instanceof PlayerEntity)
+																		? ((PlayerEntity) entity).inventory
+																				.hasItemStack(new ItemStack(WhiteSandBlock.block))
+																		: false)) {
+																	if (((entity instanceof PlayerEntity)
+																			? ((PlayerEntity) entity).inventory
+																					.hasItemStack(new ItemStack(PinkSandBlock.block))
+																			: false)) {
+																		if (entity instanceof ServerPlayerEntity) {
+																			Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server)
+																					.getAdvancementManager()
+																					.getAdvancement(new ResourceLocation("lamon_by_coring:all_sand"));
+																			AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements()
+																					.getProgress(_adv);
+																			if (!_ap.isDone()) {
+																				Iterator _iterator = _ap.getRemaningCriteria().iterator();
+																				while (_iterator.hasNext()) {
+																					String _criterion = (String) _iterator.next();
+																					((ServerPlayerEntity) entity).getAdvancements()
+																							.grantCriterion(_adv, _criterion);
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}

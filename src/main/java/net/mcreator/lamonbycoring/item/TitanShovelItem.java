@@ -4,8 +4,7 @@ package net.mcreator.lamonbycoring.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -13,16 +12,16 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 @LamonByCoringModElements.ModElement.Tag
-public class TitanswordItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_sword")
+public class TitanShovelItem extends LamonByCoringModElements.ModElement {
+	@ObjectHolder("lamon_by_coring:titan_shovel")
 	public static final Item block = null;
-	public TitanswordItem(LamonByCoringModElements instance) {
-		super(instance, 46);
+	public TitanShovelItem(LamonByCoringModElements instance) {
+		super(instance, 81);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
 				return 2480;
 			}
@@ -32,21 +31,21 @@ public class TitanswordItem extends LamonByCoringModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 3;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 13;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(TitanIngotItem.block));
+				return Ingredient.EMPTY;
 			}
-		}, 3, -3.1f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("titan_sword"));
+		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("titan_shovel"));
 	}
 }

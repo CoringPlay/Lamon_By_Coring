@@ -1,0 +1,16 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 4
+  }
+}
