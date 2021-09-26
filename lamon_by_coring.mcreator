@@ -1078,6 +1078,26 @@
       "ids": {},
       "registry_name": "pressed_potatoes_block_craft",
       "path": "~/Craft"
+    },
+    {
+      "name": "AppleInHoney",
+      "type": "food",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_in_honey",
+      "path": "~/Food"
+    },
+    {
+      "name": "AppleInHoneyCraft",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_in_honey_craft",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -1126,6 +1146,7 @@
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
       "item.lamon_by_coring.titan_shovel": "Titan Shovel",
+      "item.lamon_by_coring.apple_in_honey": "Apple In Honey",
       "item.lamon_by_coring.sapphire_item": "Sapphire",
       "block.lamon_by_coring.magenta_sand": "Magenta Sand",
       "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes"

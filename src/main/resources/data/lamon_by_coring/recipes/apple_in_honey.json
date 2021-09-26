@@ -1,0 +1,16 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "lamon_by_coring:apple_in_honey",
+    "count": 1
+  }
+}
