@@ -1,0 +1,16 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "minecraft:flint_and_steel",
+    "count": 1
+  }
+}

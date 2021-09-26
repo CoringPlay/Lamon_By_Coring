@@ -1040,14 +1040,24 @@
       "path": "~/Craft/Vanila"
     },
     {
+      "name": "Flintandsteel",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flintandsteel",
+      "path": "~/Craft/Vanila"
+    },
+    {
       "name": "Shear",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "shear",
-      "path": "~/Craft"
+      "path": "~/Craft/Vanila"
     }
   ],
   "variable_elements": [],
