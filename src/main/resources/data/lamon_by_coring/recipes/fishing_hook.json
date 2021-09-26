@@ -1,0 +1,27 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:iron_nugget"
+    },
+    "3": {
+      "item": "minecraft:iron_nugget"
+    },
+    "5": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "lamon_by_coring:fishing_hook",
+    "count": 1
+  }
+}

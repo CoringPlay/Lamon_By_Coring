@@ -1008,6 +1008,46 @@
       "ids": {},
       "registry_name": "titan_shovel_craft",
       "path": "~/Craft/Craft Tool"
+    },
+    {
+      "name": "FishingHook",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fishing_hook",
+      "path": "~/Item"
+    },
+    {
+      "name": "FishingHookCraft",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fishing_hook_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "FishingRod",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fishing_rod",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "Shear",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shear",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -1051,6 +1091,7 @@
       "block.lamon_by_coring.cauldron_level_2": "Cauldron",
       "item.lamon_by_coring.cooking_beef_bread": "Cooking Beef Bread",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
+      "item.lamon_by_coring.fishing_hook": "Fishing Hook",
       "block.lamon_by_coring.red_sand": "Red Sand",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
