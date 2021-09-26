@@ -1,0 +1,26 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:blaze_rod"
+    },
+    "3": {
+      "tag": "minecraft:slabs"
+    },
+    "4": {
+      "tag": "minecraft:slabs"
+    },
+    "5": {
+      "tag": "minecraft:slabs"
+    }
+  },
+  "result": {
+    "item": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

@@ -777,7 +777,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_block",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "Slimeball",
@@ -787,7 +787,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slimeball",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "LeavesBlock",
@@ -937,7 +937,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acacia_boat",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "BirchBoat",
@@ -947,7 +947,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "birch_boat",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "DarkOakBoat",
@@ -957,7 +957,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dark_oak_boat",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "JungleBoat",
@@ -967,7 +967,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jungle_boat",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "OakBoat",
@@ -977,7 +977,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oak_boat",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "SpruceBoat",
@@ -987,7 +987,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spruce_boat",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "TitanPickaxeCraft",
@@ -1037,7 +1037,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fishing_rod",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "Flintandsteel",
@@ -1047,7 +1047,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "flintandsteel",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
     },
     {
       "name": "Shear",
@@ -1057,7 +1057,27 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shear",
-      "path": "~/Craft/Vanila"
+      "path": "~/Craft/Vanilla"
+    },
+    {
+      "name": "BrewingStand",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brewing_stand",
+      "path": "~/Craft/Vanilla"
+    },
+    {
+      "name": "PressedPotatoesBlockCraft",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pressed_potatoes_block_craft",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -1183,7 +1203,7 @@
         "name": "Craft",
         "children": [
           {
-            "name": "Vanila",
+            "name": "Vanilla",
             "children": []
           },
           {
