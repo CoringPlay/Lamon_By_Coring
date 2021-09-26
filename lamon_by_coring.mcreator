@@ -868,6 +868,146 @@
       "ids": {},
       "registry_name": "planks",
       "path": "~/Tags"
+    },
+    {
+      "name": "CookingBeefBread",
+      "type": "food",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_beef_bread",
+      "path": "~/Food"
+    },
+    {
+      "name": "CookingBeefBreadCraft",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_beef_bread_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "PorkBread",
+      "type": "food",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pork_bread",
+      "path": "~/Food"
+    },
+    {
+      "name": "PorkBreadCraft",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pork_bread_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "CookingPorkBread",
+      "type": "food",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_pork_bread",
+      "path": "~/Food"
+    },
+    {
+      "name": "CookingPorkBreadCraft",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_pork_bread_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AcaciaBoat",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_boat",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "BirchBoat",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_boat",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "DarkOakBoat",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_boat",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "JungleBoat",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_boat",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "OakBoat",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_boat",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "SpruceBoat",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_boat",
+      "path": "~/Craft/Vanila"
+    },
+    {
+      "name": "TitanPickaxeCraft",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_pickaxe_craft",
+      "path": "~/Craft/Craft Tool"
+    },
+    {
+      "name": "TitanShovelCraft",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_shovel_craft",
+      "path": "~/Craft/Craft Tool"
     }
   ],
   "variable_elements": [],
@@ -890,12 +1030,14 @@
       "advancements.all_sand.descr": "Collect all the colors of the sand",
       "item.lamon_by_coring.titan_pickaxe": "Titan Pickaxe",
       "block.lamon_by_coring.yellow_sand": "Yellow Sand",
+      "item.lamon_by_coring.pork_bread": "Pork Bread",
       "block.lamon_by_coring.frosty_logs": "Frosty Foliage",
       "item.lamon_by_coring.titan_leggings": "Titan Leggings",
       "block.lamon_by_coring.frosty_plancks": "Frosty Plancks",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
       "block.lamon_by_coring.brown_sand": "Brown Sand",
+      "item.lamon_by_coring.cooking_pork_bread": "Cooking Pork Bread",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "block.lamon_by_coring.orange_sand": "Orange Sand",
       "item.lamon_by_coring.titan_boots": "Titan Boots",
@@ -907,6 +1049,7 @@
       "block.lamon_by_coring.cauldron_level_1": "Cauldron",
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
       "block.lamon_by_coring.cauldron_level_2": "Cauldron",
+      "item.lamon_by_coring.cooking_beef_bread": "Cooking Beef Bread",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
       "block.lamon_by_coring.red_sand": "Red Sand",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
@@ -1062,6 +1205,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Food",
+        "children": []
       }
     ]
   },

@@ -1,0 +1,16 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    }
+  ],
+  "result": {
+    "item": "lamon_by_coring:cooking_pork_bread",
+    "count": 1
+  }
+}

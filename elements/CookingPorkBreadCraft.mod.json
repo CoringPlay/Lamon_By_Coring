@@ -7,22 +7,13 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.BREAD"
       },
       {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
+        "value": "Items.COOKED_PORKCHOP"
       },
       {
         "value": ""
@@ -31,16 +22,25 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Titansword"
+      "value": "CUSTOM:CookingPorkBread"
     },
-    "name": "titan_sword",
+    "name": "cooking_pork_bread",
     "namespace": "mod"
   }
 }

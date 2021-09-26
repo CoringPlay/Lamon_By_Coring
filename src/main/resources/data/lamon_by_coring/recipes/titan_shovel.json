@@ -11,14 +11,14 @@
       "item": "lamon_by_coring:titan_ingot"
     },
     "1": {
-      "item": "lamon_by_coring:titan_ingot"
+      "item": "minecraft:stick"
     },
     "2": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "lamon_by_coring:titan_sword",
+    "item": "lamon_by_coring:titan_shovel",
     "count": 1
   }
 }

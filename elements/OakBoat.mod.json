@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:TitanIngot"
+        "value": "Blocks.PLANKS#0"
       },
       {
-        "value": ""
+        "value": "Items.WOODEN_SHOVEL"
       },
       {
-        "value": ""
+        "value": "Blocks.PLANKS#0"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.PLANKS#0"
       },
       {
-        "value": ""
+        "value": "Blocks.PLANKS#0"
+      },
+      {
+        "value": "Blocks.PLANKS#0"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Titansword"
+      "value": "Items.BOAT"
     },
-    "name": "titan_sword",
-    "namespace": "mod"
+    "name": "oak_boat",
+    "namespace": "minecraft"
   }
 }

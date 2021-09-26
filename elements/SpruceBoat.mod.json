@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:TitanIngot"
+        "value": "Blocks.PLANKS#1"
       },
       {
-        "value": ""
+        "value": "Items.WOODEN_SHOVEL"
       },
       {
-        "value": ""
+        "value": "Blocks.PLANKS#1"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.PLANKS#1"
       },
       {
-        "value": ""
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Titansword"
+      "value": "Items.SPRUCE_BOAT"
     },
-    "name": "titan_sword",
+    "name": "spruce_boat",
     "namespace": "mod"
   }
 }

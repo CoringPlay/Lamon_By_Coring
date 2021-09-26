@@ -7,13 +7,22 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:TitanIngot"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": "Items.COOKED_BEEF"
       },
       {
         "value": ""
@@ -22,25 +31,16 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Titansword"
+      "value": "CUSTOM:CookingBeefBread"
     },
-    "name": "titan_sword",
+    "name": "cooking_beef_bread",
     "namespace": "mod"
   }
 }
