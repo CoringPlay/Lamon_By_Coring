@@ -16,7 +16,7 @@ public class TitanPickaxeItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titan_pickaxe")
 	public static final Item block = null;
 	public TitanPickaxeItem(LamonByCoringModElements instance) {
-		super(instance, 72);
+		super(instance, 112);
 	}
 
 	@Override
@@ -31,21 +31,21 @@ public class TitanPickaxeItem extends LamonByCoringModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 0f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 13;
+				return 2;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.5999999999999999f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("titan_pickaxe"));
 	}
 }

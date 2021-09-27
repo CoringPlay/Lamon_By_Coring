@@ -40,13 +40,13 @@ public class TitanswordItem extends LamonByCoringModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 14;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TitanIngotItem.block));
 			}
-		}, 3, -3.1f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 3, -3.2999999999999999f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("titan_sword"));
 	}
 }

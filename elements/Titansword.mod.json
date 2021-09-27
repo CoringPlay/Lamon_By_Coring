@@ -8,13 +8,13 @@
     "name": "Titan Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
     "toolType": "Sword",
     "harvestLevel": 4,
     "efficiency": 4.0,
-    "attackSpeed": 0.9,
-    "enchantability": 2,
+    "attackSpeed": 0.7000000000000001,
+    "enchantability": 14,
     "damageVsEntity": 8.0,
     "usageCount": 2480,
     "blocksAffected": [],

@@ -1,0 +1,12 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:campfire_cooking",
+  "experience": 0,
+  "cookingtime": 20,
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "item": "minecraft:torch"
+  }
+}

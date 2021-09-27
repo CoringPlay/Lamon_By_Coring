@@ -17,7 +17,7 @@ public class CookingBeefBreadItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:cooking_beef_bread")
 	public static final Item block = null;
 	public CookingBeefBreadItem(LamonByCoringModElements instance) {
-		super(instance, 88);
+		super(instance, 113);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class CookingBeefBreadItem extends LamonByCoringModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(13).saturation(8f).build()));
+					.food((new Food.Builder()).hunger(9).saturation(6f).build()));
 			setRegistryName("cooking_beef_bread");
 		}
 

@@ -750,16 +750,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "TitanPickaxe",
-      "type": "tool",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "titan_pickaxe",
-      "path": "~/Tool"
-    },
-    {
       "name": "FrostyFoliage",
       "type": "block",
       "sortid": 73,
@@ -868,16 +858,6 @@
       "ids": {},
       "registry_name": "planks",
       "path": "~/Tags"
-    },
-    {
-      "name": "CookingBeefBread",
-      "type": "food",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cooking_beef_bread",
-      "path": "~/Food"
     },
     {
       "name": "CookingBeefBreadCraft",
@@ -1098,6 +1078,36 @@
       "ids": {},
       "registry_name": "apple_in_honey_craft",
       "path": "~/Craft"
+    },
+    {
+      "name": "TitanPickaxe",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_pickaxe",
+      "path": "~/Tool"
+    },
+    {
+      "name": "CookingBeefBread",
+      "type": "food",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_beef_bread",
+      "path": "~/Food"
+    },
+    {
+      "name": "Torch",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "torch",
+      "path": "~/Craft/Vanilla"
     }
   ],
   "variable_elements": [],
