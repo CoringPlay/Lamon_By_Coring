@@ -1158,6 +1158,16 @@
       "ids": {},
       "registry_name": "poisonous_potato",
       "path": "~/Craft/Vanilla"
+    },
+    {
+      "name": "GrassBlock",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_block",
+      "path": "~/Craft/Vanilla"
     }
   ],
   "variable_elements": [],
