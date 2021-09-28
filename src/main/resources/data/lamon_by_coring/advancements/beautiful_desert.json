@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "translate": "advancements.beautiful_desert.title"
+    },
+    "description": {
+      "translate": "advancements.beautiful_desert.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "beautiful_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "lamon_by_coring:color_desert"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  }
+}

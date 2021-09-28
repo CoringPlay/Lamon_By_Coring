@@ -20,6 +20,7 @@
   "block.lamon_by_coring.red_sand": "Red Sand",
   "block.lamon_by_coring.sapphire_block": "Sapphire Block",
   "item.lamon_by_coring.titan_shovel": "Titan Shovel",
+  "advancements.beautiful_desert.title": "Beautiful Desert",
   "item.lamon_by_coring.sapphire_item": "Sapphire",
   "block.lamon_by_coring.magenta_sand": "Magenta Sand",
   "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes",
@@ -46,5 +47,6 @@
   "block.lamon_by_coring.cauldron_level_2": "Cauldron",
   "block.lamon_by_coring.gray_sand": "Gray Sand",
   "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
-  "item.lamon_by_coring.apple_in_honey": "Apple In Honey"
+  "item.lamon_by_coring.apple_in_honey": "Apple In Honey",
+  "advancements.beautiful_desert.descr": "Find the colored desert"
 }
