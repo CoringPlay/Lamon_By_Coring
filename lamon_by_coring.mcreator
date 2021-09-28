@@ -1148,6 +1148,16 @@
       "ids": {},
       "registry_name": "lamon_ach",
       "path": "~/Achivment"
+    },
+    {
+      "name": "PoisonousPotato",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poisonous_potato",
+      "path": "~/Craft/Vanilla"
     }
   ],
   "variable_elements": [],
