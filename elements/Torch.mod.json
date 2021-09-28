@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Campfire cooking",
     "xpReward": 0.0,
-    "cookingTime": 20,
+    "cookingTime": 30,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
