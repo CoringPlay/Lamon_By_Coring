@@ -127,6 +127,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:ColorDesert"
+      },
+      {
+        "value": "CUSTOM:Colorbeach"
       }
     ],
     "blocksToReplace": [

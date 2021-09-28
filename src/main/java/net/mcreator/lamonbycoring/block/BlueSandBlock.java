@@ -124,6 +124,8 @@ public class BlueSandBlock extends LamonByCoringModElements.ModElement {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("lamon_by_coring:color_desert").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("lamon_by_coring:color_beach").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
