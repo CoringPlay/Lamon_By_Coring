@@ -40,7 +40,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 	public static Biome biome;
 	public FrostuForestBiome(LamonByCoringModElements instance) {
-		super(instance, 115);
+		super(instance, 108);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -48,7 +48,7 @@ public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(-15697152).build();
+						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(-12023746).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));

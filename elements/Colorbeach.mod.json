@@ -29,7 +29,7 @@
     "particlesProbability": 0.5,
     "biomeCategory": "BEACH",
     "parent": {
-      "value": "CUSTOM:ColorDesert"
+      "value": "No parent"
     },
     "rainingPossibility": 0.5,
     "temperature": 2.0,
