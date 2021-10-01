@@ -45,10 +45,10 @@ import java.util.Collections;
 
 @LamonByCoringModElements.ModElement.Tag
 public class TitanOreBlock extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_ore")
+	@ObjectHolder("lamon_by_coring:titanium_ore")
 	public static final Block block = null;
 	public TitanOreBlock(LamonByCoringModElements instance) {
-		super(instance, 2);
+		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -63,7 +63,7 @@ public class TitanOreBlock extends LamonByCoringModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("titan_ore");
+			setRegistryName("titanium_ore");
 		}
 
 		@Override
@@ -105,7 +105,8 @@ public class TitanOreBlock extends LamonByCoringModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:titan_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:titanium_ore_match"),
+					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -120,8 +121,8 @@ public class TitanOreBlock extends LamonByCoringModElements.ModElement {
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(10)
 					.square().func_242731_b(1);
-			event.getRegistry().register(feature.setRegistryName("titan_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:titan_ore"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("titanium_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:titanium_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lamon_by_coring:titan_block"
+      "item": "lamon_by_coring:titanium_block"
     }
   ],
   "result": {
-    "item": "lamon_by_coring:titan_ingot",
+    "item": "lamon_by_coring:titanium_ingot",
     "count": 9
   }
 }

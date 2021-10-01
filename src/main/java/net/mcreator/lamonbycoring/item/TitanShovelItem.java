@@ -13,10 +13,10 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 @LamonByCoringModElements.ModElement.Tag
 public class TitanShovelItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_shovel")
+	@ObjectHolder("lamon_by_coring:titanium_shovel")
 	public static final Item block = null;
 	public TitanShovelItem(LamonByCoringModElements instance) {
-		super(instance, 32);
+		super(instance, 38);
 	}
 
 	@Override
@@ -46,6 +46,6 @@ public class TitanShovelItem extends LamonByCoringModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("titan_shovel"));
+		}.setRegistryName("titanium_shovel"));
 	}
 }

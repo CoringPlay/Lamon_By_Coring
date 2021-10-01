@@ -8,7 +8,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_ore",
+      "registry_name": "titanium_ore",
       "path": "~/Block/ore"
     },
     {
@@ -38,7 +38,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_ingot",
+      "registry_name": "titanium_ingot",
       "path": "~/Item/ingot"
     },
     {
@@ -338,7 +338,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_block",
+      "registry_name": "titanium_block",
       "path": "~/Block/Compresing_Block"
     },
     {
@@ -388,7 +388,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_nagget",
+      "registry_name": "titanium_nagget",
       "path": "~/Item/nagget"
     },
     {
@@ -418,7 +418,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan",
+      "registry_name": "titanium",
       "metadata": {
         "eh": true,
         "el": true,
@@ -444,7 +444,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_sword",
+      "registry_name": "titanium_sword",
       "path": "~/Tool"
     },
     {
@@ -772,23 +772,13 @@
       "path": "~/Tags"
     },
     {
-      "name": "Frostytreesmall1",
-      "type": "structure",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frosty_tree_small_1",
-      "path": "~/Structures/mini/tree"
-    },
-    {
       "name": "TitanShovel",
       "type": "tool",
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_shovel",
+      "registry_name": "titanium_shovel",
       "path": "~/Tool"
     },
     {
@@ -1058,7 +1048,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_pickaxe",
+      "registry_name": "titanium_pickaxe",
       "path": "~/Tool"
     },
     {
@@ -1264,6 +1254,66 @@
       "ids": {},
       "registry_name": "titan_wall",
       "path": "~/Block/Wall"
+    },
+    {
+      "name": "IronRing",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_ring",
+      "path": "~/Item"
+    },
+    {
+      "name": "ChainmailHelmet",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmail_helmet",
+      "path": "~/Craft/Craft_Armor/Chainmail_Armor"
+    },
+    {
+      "name": "ChainmailChestplate",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmail_chestplate",
+      "path": "~/Craft/Craft_Armor/Chainmail_Armor"
+    },
+    {
+      "name": "ChainmailLeggings",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmail_leggings",
+      "path": "~/Craft/Craft_Armor/Chainmail_Armor"
+    },
+    {
+      "name": "ChainmailBoots",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmail_boots",
+      "path": "~/Craft/Craft_Armor/Chainmail_Armor"
+    },
+    {
+      "name": "Ring",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ring",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -1284,46 +1334,57 @@
       "block.lamon_by_coring.frosty_logs": "Frosty Logs",
       "item.lamon_by_coring.titan_leggings": "Titan Leggings",
       "advancements.lamon_ach.descr": "HI",
+      "item.lamon_by_coring.titanium_leggings": "Titanium Leggings",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "advancements.lamon_ach.title": "Lamon",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
       "item.lamon_by_coring.cooking_pork_bread": "Cooking Pork Bread",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "block.lamon_by_coring.glass_door": "Glass Door",
+      "block.lamon_by_coring.titanium_block": "Titanium Block",
       "item.lamon_by_coring.cooking_beef_bread": "Cooking Beef Bread",
       "item.lamon_by_coring.ruby_item": "Ruby Item",
       "block.lamon_by_coring.titan_wall": "Titan Wall",
+      "item.lamon_by_coring.titanium_helmet": "Titanium Helmet",
       "item.lamon_by_coring.fishing_hook": "Fishing Hook",
+      "item.lamon_by_coring.titanium_boots": "Titanium Boots",
       "block.lamon_by_coring.red_sand": "Red Sand",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
-      "item.lamon_by_coring.titan_shovel": "Titan Shovel",
       "advancements.beautiful_desert.title": "Beautiful Desert",
+      "item.lamon_by_coring.titan_shovel": "Titan Shovel",
       "item.lamon_by_coring.sapphire_item": "Sapphire",
       "block.lamon_by_coring.magenta_sand": "Magenta Sand",
       "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes",
-      "item.lamon_by_coring.titan_ingot": "Titan Ingot",
       "item.lamon_by_coring.essenceofthe_end": "Essence of the End",
-      "block.lamon_by_coring.titan_block": "Titan Block",
+      "item.lamon_by_coring.titan_ingot": "Titan Ingot",
       "block.lamon_by_coring.ruby_ore": "Ruby Ore",
       "item.lamon_by_coring.titan_helmet": "Titan Helmet",
       "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
+      "item.lamon_by_coring.titanium_chestplate": "Titanium Chestplat",
       "item.lamon_by_coring.titan_pickaxe": "Titan Pickaxe",
       "item.lamon_by_coring.pork_bread": "Pork Bread",
       "biome.lamon_by_coring.color_beach": "Color beach",
       "block.lamon_by_coring.frosty_plancks": "Frosty Plancks",
+      "block.lamon_by_coring.titanium_ore": "Titanium Ore",
+      "item.lamon_by_coring.titanium_ingot": "Titanium Ingot",
       "block.lamon_by_coring.brown_sand": "Brown Sand",
+      "item.lamon_by_coring.titanium_nagget": "Titanium Nagget",
       "block.lamon_by_coring.frosry_stairs": "Frosry Stairs",
       "block.lamon_by_coring.orange_sand": "Orange Sand",
-      "item.lamon_by_coring.titan_boots": "Titan Boots",
       "item.lamon_by_coring.titan_sword": "Titan Sword",
+      "item.lamon_by_coring.titan_boots": "Titan Boots",
+      "item.lamon_by_coring.titanium_sword": "Titanium Sword",
       "block.lamon_by_coring.cauldron_level_3": "Cauldron",
       "item.lamon_by_coring.titan_nagget": "Titan Nagget",
       "block.lamon_by_coring.cauldron_level_1": "Cauldron",
       "biome.lamon_by_coring.frostu_forest": "Frostu Forest",
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
       "block.lamon_by_coring.cauldron_level_2": "Cauldron",
+      "item.lamon_by_coring.titanium_shovel": "Titanium Shovel",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
+      "item.lamon_by_coring.iron_ring": "Iron Ring",
+      "item.lamon_by_coring.titanium_pickaxe": "Titanium Pickaxe",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
       "item.lamon_by_coring.apple_in_honey": "Apple In Honey",
       "advancements.beautiful_desert.descr": "Find the colored desert"
@@ -1429,6 +1490,10 @@
             "children": [
               {
                 "name": "Titan_Armor",
+                "children": []
+              },
+              {
+                "name": "Chainmail_Armor",
                 "children": []
               }
             ]

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "titan_ingot",
+    "texture": "ring",
     "customModelName": "Normal",
-    "name": "Titanium Ingot",
+    "name": "Iron Ring",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

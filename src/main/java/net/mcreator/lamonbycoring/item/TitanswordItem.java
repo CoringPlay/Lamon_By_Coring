@@ -14,10 +14,10 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 @LamonByCoringModElements.ModElement.Tag
 public class TitanswordItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_sword")
+	@ObjectHolder("lamon_by_coring:titanium_sword")
 	public static final Item block = null;
 	public TitanswordItem(LamonByCoringModElements instance) {
-		super(instance, 31);
+		super(instance, 37);
 	}
 
 	@Override
@@ -47,6 +47,6 @@ public class TitanswordItem extends LamonByCoringModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(TitanIngotItem.block));
 			}
 		}, 3, -3.2999999999999999f, new Item.Properties().group(ItemGroup.COMBAT)) {
-		}.setRegistryName("titan_sword"));
+		}.setRegistryName("titanium_sword"));
 	}
 }

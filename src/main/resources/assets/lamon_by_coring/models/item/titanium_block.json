@@ -1,5 +1,5 @@
 {
-  "parent": "lamon_by_coring:block/titan_block",
+  "parent": "lamon_by_coring:block/titanium_block",
   "display": {
     "thirdperson": {
       "rotation": [

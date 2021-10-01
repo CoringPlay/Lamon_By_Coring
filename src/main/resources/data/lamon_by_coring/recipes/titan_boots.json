@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "lamon_by_coring:titan_ingot"
+      "item": "lamon_by_coring:titanium_ingot"
     },
     "2": {
-      "item": "lamon_by_coring:titan_ingot"
+      "item": "lamon_by_coring:titanium_ingot"
     },
     "3": {
-      "item": "lamon_by_coring:titan_ingot"
+      "item": "lamon_by_coring:titanium_ingot"
     },
     "5": {
-      "item": "lamon_by_coring:titan_ingot"
+      "item": "lamon_by_coring:titanium_ingot"
     }
   },
   "result": {
-    "item": "lamon_by_coring:titan_boots",
+    "item": "lamon_by_coring:titanium_boots",
     "count": 1
   }
 }

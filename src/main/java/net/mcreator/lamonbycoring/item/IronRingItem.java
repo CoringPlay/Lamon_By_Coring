@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 @LamonByCoringModElements.ModElement.Tag
-public class TitanIngotItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titanium_ingot")
+public class IronRingItem extends LamonByCoringModElements.ModElement {
+	@ObjectHolder("lamon_by_coring:iron_ring")
 	public static final Item block = null;
-	public TitanIngotItem(LamonByCoringModElements instance) {
-		super(instance, 29);
+	public IronRingItem(LamonByCoringModElements instance) {
+		super(instance, 122);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class TitanIngotItem extends LamonByCoringModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("titanium_ingot");
+			setRegistryName("iron_ring");
 		}
 
 		@Override

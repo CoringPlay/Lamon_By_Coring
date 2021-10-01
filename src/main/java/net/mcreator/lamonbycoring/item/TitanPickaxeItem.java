@@ -13,10 +13,10 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 @LamonByCoringModElements.ModElement.Tag
 public class TitanPickaxeItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_pickaxe")
+	@ObjectHolder("lamon_by_coring:titanium_pickaxe")
 	public static final Item block = null;
 	public TitanPickaxeItem(LamonByCoringModElements instance) {
-		super(instance, 33);
+		super(instance, 39);
 	}
 
 	@Override
@@ -46,6 +46,6 @@ public class TitanPickaxeItem extends LamonByCoringModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -2.5999999999999999f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("titan_pickaxe"));
+		}.setRegistryName("titanium_pickaxe"));
 	}
 }

@@ -13,10 +13,10 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 @LamonByCoringModElements.ModElement.Tag
 public class TitanNaggetItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_nagget")
+	@ObjectHolder("lamon_by_coring:titanium_nagget")
 	public static final Item block = null;
 	public TitanNaggetItem(LamonByCoringModElements instance) {
-		super(instance, 26);
+		super(instance, 30);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class TitanNaggetItem extends LamonByCoringModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("titan_nagget");
+			setRegistryName("titanium_nagget");
 		}
 
 		@Override

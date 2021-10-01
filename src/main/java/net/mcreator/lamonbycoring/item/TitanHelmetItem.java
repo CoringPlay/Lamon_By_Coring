@@ -28,16 +28,16 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 
 @LamonByCoringModElements.ModElement.Tag
 public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_helmet")
+	@ObjectHolder("lamon_by_coring:titanium_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("lamon_by_coring:titan_chestplate")
+	@ObjectHolder("lamon_by_coring:titanium_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("lamon_by_coring:titan_leggings")
+	@ObjectHolder("lamon_by_coring:titanium_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("lamon_by_coring:titan_boots")
+	@ObjectHolder("lamon_by_coring:titanium_boots")
 	public static final Item boots = null;
 	public TitanHelmetItem(LamonByCoringModElements instance) {
-		super(instance, 30);
+		super(instance, 36);
 	}
 
 	@Override
@@ -71,7 +71,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "titan";
+				return "titanium";
 			}
 
 			@Override
@@ -100,7 +100,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lamon_by_coring:textures/titan_armor_layer_1.png";
 			}
-		}.setRegistryName("titan_helmet"));
+		}.setRegistryName("titanium_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
@@ -119,7 +119,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lamon_by_coring:textures/titan_armor_layer_1.png";
 			}
-		}.setRegistryName("titan_chestplate"));
+		}.setRegistryName("titanium_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
@@ -137,7 +137,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lamon_by_coring:textures/titan_armor_layer_1.png";
 			}
-		}.setRegistryName("titan_leggings"));
+		}.setRegistryName("titanium_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
@@ -155,7 +155,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lamon_by_coring:textures/titan_armor_layer_1.png";
 			}
-		}.setRegistryName("titan_boots"));
+		}.setRegistryName("titanium_boots"));
 	}
 	// Made with Blockbench 3.9.3
 	// Exported for Minecraft version 1.15 - 1.16 with MCP mappings
