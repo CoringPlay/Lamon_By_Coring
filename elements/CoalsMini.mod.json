@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CoalMini"
+      },
+      {
+        "value": "CUSTOM:CharcoalMini"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "coals_mini",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "1": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "2": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "3": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "4": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "5": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "6": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "7": {
+      "item": "lamon_by_coring:charcoal_mini"
+    },
+    "8": {
+      "item": "lamon_by_coring:charcoal_mini"
+    }
+  },
+  "result": {
+    "item": "minecraft:charcoal",
+    "count": 1
+  }
+}

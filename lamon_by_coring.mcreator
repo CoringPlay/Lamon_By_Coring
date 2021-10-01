@@ -1354,6 +1354,66 @@
       "ids": {},
       "registry_name": "coal_craft",
       "path": "~/Craft"
+    },
+    {
+      "name": "CharcoalMini",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_mini",
+      "path": "~/Item"
+    },
+    {
+      "name": "CharcoalMiniCraft",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_mini_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "CharcoalCraft",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "CoalsMini",
+      "type": "tag",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coals_mini",
+      "path": "~/Tags"
+    },
+    {
+      "name": "CoalMiniFuel",
+      "type": "fuel",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_mini_fuel",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "CharcoalMiniFuel",
+      "type": "fuel",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_mini_fuel",
+      "path": "~/Fuel"
     }
   ],
   "variable_elements": [],
@@ -1368,13 +1428,14 @@
       "block.lamon_by_coring.white_sand": "White Sand",
       "block.lamon_by_coring.frosty_foliage": "Frosty Foliage",
       "block.lamon_by_coring.light_gray_sand": "Light Gray Sand",
+      "item.lamon_by_coring.charcoal_mini": "Charcoal Mini",
       "block.lamon_by_coring.black_sand": "Black Sand",
       "block.lamon_by_coring.yellow_sand": "Yellow Sand",
       "block.lamon_by_coring.frosty_fence": "Frosty Fence",
       "block.lamon_by_coring.frosty_logs": "Frosty Logs",
       "item.lamon_by_coring.titan_leggings": "Titan Leggings",
-      "item.lamon_by_coring.titanium_leggings": "Titanium Leggings",
       "advancements.lamon_ach.descr": "HI",
+      "item.lamon_by_coring.titanium_leggings": "Titanium Leggings",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "advancements.lamon_ach.title": "Lamon",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
@@ -1603,6 +1664,10 @@
       },
       {
         "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Fuel",
         "children": []
       }
     ]
