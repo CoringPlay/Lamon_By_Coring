@@ -19,16 +19,4 @@ authors="Coring, MCreator"
 
 
 
-[[dependencies.lamon_by_coring]]
-    modId="just_enough_items"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.lamon_by_coring]]
-    modId="crafttweaker"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

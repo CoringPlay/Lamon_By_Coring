@@ -1,0 +1,32 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "magic_packaxe",
+    "customModelName": "Normal",
+    "name": "Magic Pickaxe",
+    "specialInfo": [
+      "size 3x3"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 5.0,
+    "usageCount": 1380,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "MagicPickaxeKoghdaBlokSlomanInstrumientom"
+    }
+  }
+}

@@ -17,7 +17,7 @@ public class TitanswordItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titan_sword")
 	public static final Item block = null;
 	public TitanswordItem(LamonByCoringModElements instance) {
-		super(instance, 46);
+		super(instance, 31);
 	}
 
 	@Override

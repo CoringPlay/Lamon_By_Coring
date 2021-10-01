@@ -428,34 +428,6 @@
       "path": "~/Armor"
     },
     {
-      "name": "AllSand",
-      "type": "achievement",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "all_sand",
-      "path": "~/Achivment"
-    },
-    {
-      "name": "AllSandProcedur",
-      "type": "procedure",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "all_sand",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "SapphireDrop",
       "type": "loottable",
       "sortid": 56,
@@ -1168,6 +1140,49 @@
       "ids": {},
       "registry_name": "grass_block",
       "path": "~/Craft/Vanilla"
+    },
+    {
+      "name": "MagicPickaxe",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_pickaxe",
+      "path": "~/Tool"
+    },
+    {
+      "name": "MagicPickaxeKoghdaBlokSlomanInstrumientom",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_pickaxe_koghda_blok_sloman_instrumientom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1206,7 +1221,6 @@
       "item.lamon_by_coring.titan_helmet": "Titan Helmet",
       "block.lamon_by_coring.lime_sand": "Lime Sand",
       "block.lamon_by_coring.blue_sand": "Blue Sand",
-      "advancements.all_sand.descr": "Collect all the colors of the sand",
       "item.lamon_by_coring.titan_pickaxe": "Titan Pickaxe",
       "item.lamon_by_coring.pork_bread": "Pork Bread",
       "biome.lamon_by_coring.color_beach": "Color beach",
@@ -1214,7 +1228,6 @@
       "block.lamon_by_coring.brown_sand": "Brown Sand",
       "block.lamon_by_coring.orange_sand": "Orange Sand",
       "item.lamon_by_coring.titan_boots": "Titan Boots",
-      "advancements.all_sand.title": "All Sand",
       "item.lamon_by_coring.titan_sword": "Titan Sword",
       "block.lamon_by_coring.cauldron_level_3": "Cauldron",
       "item.lamon_by_coring.titan_nagget": "Titan Nagget",
@@ -1223,6 +1236,7 @@
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
       "block.lamon_by_coring.cauldron_level_2": "Cauldron",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
+      "item.lamon_by_coring.magic_pickaxe": "Magic Pickaxe",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
       "item.lamon_by_coring.apple_in_honey": "Apple In Honey",
       "advancements.beautiful_desert.descr": "Find the colored desert"
@@ -1396,10 +1410,7 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "just_enough_items",
-      "crafttweaker"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net",
     "modElementsPackage": "net.mcreator.lamonbycoring",

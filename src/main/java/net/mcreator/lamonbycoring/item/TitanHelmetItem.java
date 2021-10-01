@@ -37,7 +37,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titan_boots")
 	public static final Item boots = null;
 	public TitanHelmetItem(LamonByCoringModElements instance) {
-		super(instance, 26);
+		super(instance, 30);
 	}
 
 	@Override

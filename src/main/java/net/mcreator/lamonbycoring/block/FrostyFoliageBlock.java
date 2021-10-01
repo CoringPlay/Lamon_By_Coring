@@ -46,7 +46,7 @@ public class FrostyFoliageBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_foliage")
 	public static final Block block = null;
 	public FrostyFoliageBlock(LamonByCoringModElements instance) {
-		super(instance, 73);
+		super(instance, 21);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}

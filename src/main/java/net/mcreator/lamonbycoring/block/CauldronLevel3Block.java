@@ -40,7 +40,7 @@ public class CauldronLevel3Block extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:cauldron_level_1")
 	public static final Block block = null;
 	public CauldronLevel3Block(LamonByCoringModElements instance) {
-		super(instance, 68);
+		super(instance, 78);
 	}
 
 	@Override
