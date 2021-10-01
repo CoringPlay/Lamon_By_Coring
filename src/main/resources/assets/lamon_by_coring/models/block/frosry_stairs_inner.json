@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lamon_by_coring:blocks/frosy_planks",
+    "top": "lamon_by_coring:blocks/frosy_planks",
+    "side": "lamon_by_coring:blocks/frosy_planks"
+  }
+}

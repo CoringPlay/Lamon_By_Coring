@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lamon_by_coring:block/frosty_slab"
+    },
+    "type=top": {
+      "model": "lamon_by_coring:block/frosty_slab_top"
+    },
+    "type=double": {
+      "model": "lamon_by_coring:block/frosty_slab_full"
+    }
+  }
+}

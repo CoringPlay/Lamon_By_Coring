@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "lamon_by_coring:blocks/frosy_planks",
+    "particle": "lamon_by_coring:blocks/frosy_planks"
+  }
+}
