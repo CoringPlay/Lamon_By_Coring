@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "lamon_by_coring:blocks/titan_block",
+    "particle": "lamon_by_coring:blocks/titan_block"
+  }
+}

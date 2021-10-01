@@ -1254,6 +1254,16 @@
       "ids": {},
       "registry_name": "frosty_fence",
       "path": "~/Block/Fence"
+    },
+    {
+      "name": "TitanWall",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_wall",
+      "path": "~/Block/Wall"
     }
   ],
   "variable_elements": [],
@@ -1282,6 +1292,7 @@
       "block.lamon_by_coring.glass_door": "Glass Door",
       "item.lamon_by_coring.cooking_beef_bread": "Cooking Beef Bread",
       "item.lamon_by_coring.ruby_item": "Ruby Item",
+      "block.lamon_by_coring.titan_wall": "Titan Wall",
       "item.lamon_by_coring.fishing_hook": "Fishing Hook",
       "block.lamon_by_coring.red_sand": "Red Sand",
       "block.lamon_by_coring.sapphire_block": "Sapphire Block",
