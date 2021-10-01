@@ -18,6 +18,7 @@
   "block.lamon_by_coring.titan_ore": "Titan Ore",
   "block.lamon_by_coring.glass_door": "Glass Door",
   "item.lamon_by_coring.cooking_beef_bread": "Cooking Beef Bread",
+  "item.lamon_by_coring.ruby_item": "Ruby Item",
   "item.lamon_by_coring.fishing_hook": "Fishing Hook",
   "block.lamon_by_coring.red_sand": "Red Sand",
   "block.lamon_by_coring.sapphire_block": "Sapphire Block",
@@ -28,6 +29,7 @@
   "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes",
   "item.lamon_by_coring.titan_ingot": "Titan Ingot",
   "block.lamon_by_coring.titan_block": "Titan Block",
+  "block.lamon_by_coring.ruby_ore": "Ruby Ore",
   "item.lamon_by_coring.titan_helmet": "Titan Helmet",
   "block.lamon_by_coring.lime_sand": "Lime Sand",
   "block.lamon_by_coring.blue_sand": "Blue Sand",
@@ -46,7 +48,6 @@
   "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
   "block.lamon_by_coring.cauldron_level_2": "Cauldron",
   "block.lamon_by_coring.gray_sand": "Gray Sand",
-  "item.lamon_by_coring.magic_pickaxe": "Magic Pickaxe",
   "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
   "item.lamon_by_coring.apple_in_honey": "Apple In Honey",
   "advancements.beautiful_desert.descr": "Find the colored desert"
