@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": ""
       },
       {
-        "value": "Items.WOODEN_SHOVEL"
+        "value": "Items.COAL#0"
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": ""
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": ""
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": ""
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.SPRUCE_BOAT"
+      "value": "CUSTOM:CoalMini"
     },
-    "name": "spruce_boat",
-    "namespace": "minecraft"
+    "name": "coal_mini",
+    "namespace": "mod"
   }
 }

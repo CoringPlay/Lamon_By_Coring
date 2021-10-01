@@ -922,16 +922,6 @@
       "path": "~/Craft/Vanilla"
     },
     {
-      "name": "SpruceBoat",
-      "type": "recipe",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spruce_boat",
-      "path": "~/Craft/Vanilla"
-    },
-    {
       "name": "TitanPickaxeCraft",
       "type": "recipe",
       "sortid": 102,
@@ -1314,6 +1304,56 @@
       "ids": {},
       "registry_name": "ring",
       "path": "~/Craft"
+    },
+    {
+      "name": "SpruceBoat",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_boat",
+      "path": "~/Craft/Vanilla"
+    },
+    {
+      "name": "Bell",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bell",
+      "path": "~/Craft/Vanilla"
+    },
+    {
+      "name": "CoalMini",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_mini",
+      "path": "~/Item"
+    },
+    {
+      "name": "CoalMiniCraft",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_mini_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "CoalCraft",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_craft",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -1333,8 +1373,8 @@
       "block.lamon_by_coring.frosty_fence": "Frosty Fence",
       "block.lamon_by_coring.frosty_logs": "Frosty Logs",
       "item.lamon_by_coring.titan_leggings": "Titan Leggings",
-      "advancements.lamon_ach.descr": "HI",
       "item.lamon_by_coring.titanium_leggings": "Titanium Leggings",
+      "advancements.lamon_ach.descr": "HI",
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "advancements.lamon_ach.title": "Lamon",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
@@ -1384,6 +1424,7 @@
       "item.lamon_by_coring.titanium_shovel": "Titanium Shovel",
       "block.lamon_by_coring.gray_sand": "Gray Sand",
       "item.lamon_by_coring.iron_ring": "Iron Ring",
+      "item.lamon_by_coring.coal_mini": "Coal Mini",
       "item.lamon_by_coring.titanium_pickaxe": "Titanium Pickaxe",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
       "item.lamon_by_coring.apple_in_honey": "Apple In Honey",

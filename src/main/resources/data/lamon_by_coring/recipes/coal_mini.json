@@ -1,0 +1,16 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "lamon_by_coring:coal_mini",
+    "count": 9
+  }
+}

@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": "Items.WOODEN_SHOVEL"
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": "CUSTOM:CoalMini"
       },
       {
-        "value": "Blocks.PLANKS#1"
+        "value": "CUSTOM:CoalMini"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.SPRUCE_BOAT"
+      "value": "Items.COAL#0"
     },
-    "name": "spruce_boat",
-    "namespace": "minecraft"
+    "name": "coal",
+    "namespace": "mod"
   }
 }

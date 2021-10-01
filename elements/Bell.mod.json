@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.PLANKS#1"
-      },
-      {
-        "value": "Items.WOODEN_SHOVEL"
-      },
-      {
-        "value": "Blocks.PLANKS#1"
-      },
-      {
-        "value": "Blocks.PLANKS#1"
-      },
-      {
-        "value": "Blocks.PLANKS#1"
-      },
-      {
-        "value": "Blocks.PLANKS#1"
+        "value": "Items.STICK"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.SPRUCE_BOAT"
+      "value": "Blocks.BELL"
     },
-    "name": "spruce_boat",
+    "name": "bell",
     "namespace": "minecraft"
   }
 }
