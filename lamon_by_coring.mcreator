@@ -1160,6 +1160,60 @@
       "ids": {},
       "registry_name": "ruby_ore",
       "path": "~/Block/ore"
+    },
+    {
+      "name": "EssenceoftheEnd",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essenceofthe_end",
+      "path": "~/Item"
+    },
+    {
+      "name": "Essenceoftheendproc",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essenceoftheendproc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EssenceoftheendCraft",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essenceoftheend_craft",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -1195,6 +1249,7 @@
       "block.lamon_by_coring.magenta_sand": "Magenta Sand",
       "block.lamon_by_coring.pressed_potatoes_block": "Pressed potatoes",
       "item.lamon_by_coring.titan_ingot": "Titan Ingot",
+      "item.lamon_by_coring.essenceofthe_end": "Essence of the End",
       "block.lamon_by_coring.titan_block": "Titan Block",
       "block.lamon_by_coring.ruby_ore": "Ruby Ore",
       "item.lamon_by_coring.titan_helmet": "Titan Helmet",
@@ -1388,7 +1443,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "just_enough_items",
+      "crafttweaker"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net",
     "modElementsPackage": "net.mcreator.lamonbycoring",

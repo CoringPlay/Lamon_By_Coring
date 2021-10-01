@@ -1,0 +1,30 @@
+{
+  "group": "lamon_by_coring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "lamon_by_coring:essenceofthe_end"
+    },
+    "3": {
+      "item": "lamon_by_coring:essenceofthe_end"
+    },
+    "4": {
+      "item": "minecraft:spider_eye"
+    },
+    "5": {
+      "item": "lamon_by_coring:essenceofthe_end"
+    },
+    "7": {
+      "item": "lamon_by_coring:essenceofthe_end"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 1
+  }
+}
