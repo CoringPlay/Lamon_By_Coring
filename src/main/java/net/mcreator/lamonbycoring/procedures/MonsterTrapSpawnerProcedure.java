@@ -20,6 +20,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.lamonbycoring.item.MonsterTrapPigItem;
 import net.mcreator.lamonbycoring.item.MonsterTrapItem;
 import net.mcreator.lamonbycoring.item.MonsterTrapCowItem;
 import net.mcreator.lamonbycoring.LamonByCoringMod;
@@ -96,6 +97,27 @@ public class MonsterTrapSpawnerProcedure {
 			}
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(MonsterTrapCowItem.block);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
+			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _setstack = new ItemStack(MonsterTrapItem.block);
+				_setstack.setCount((int) 1);
+				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+			}
+		}
+		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() == MonsterTrapPigItem.block)) {
+			if (world instanceof ServerWorld) {
+				Entity entityToSpawn = new CowEntity(EntityType.COW, (World) world);
+				entityToSpawn.setLocationAndAngles(x, (y + 1), z, world.getRandom().nextFloat() * 360F, 0);
+				if (entityToSpawn instanceof MobEntity)
+					((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
+							SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
+				world.addEntity(entityToSpawn);
+			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(MonsterTrapPigItem.block);
 				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 						((PlayerEntity) entity).container.func_234641_j_());
 			}
