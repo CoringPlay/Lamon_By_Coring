@@ -11,11 +11,11 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 3,
+    "rewardXP": 5,
     "achievementType": "task",
     "parent": {
       "value": "CUSTOM:LamonAch"
