@@ -53,7 +53,7 @@ public class MonsterTrapCowItem extends LamonByCoringModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("(cow)"));
+			list.add(new StringTextComponent("\u00A77(cow)"));
 		}
 	}
 }

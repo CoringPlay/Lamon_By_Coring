@@ -53,7 +53,7 @@ public class MonsterTrapPigItem extends LamonByCoringModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("(pig)"));
+			list.add(new StringTextComponent("\u00A77(pig)"));
 		}
 	}
 }

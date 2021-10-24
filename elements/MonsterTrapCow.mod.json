@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "(cow)"
+      "§7(cow)"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

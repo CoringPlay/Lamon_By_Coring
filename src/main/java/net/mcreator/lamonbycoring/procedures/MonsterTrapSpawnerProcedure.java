@@ -8,9 +8,11 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.passive.PigEntity;
 import net.minecraft.entity.passive.CowEntity;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.MobEntity;
@@ -88,6 +90,9 @@ public class MonsterTrapSpawnerProcedure {
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == MonsterTrapCowItem.block)) {
 			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, y, z, (int) 50, 3, 3, 3, 1);
+			}
+			if (world instanceof ServerWorld) {
 				Entity entityToSpawn = new CowEntity(EntityType.COW, (World) world);
 				entityToSpawn.setLocationAndAngles(x, (y + 1), z, world.getRandom().nextFloat() * 360F, 0);
 				if (entityToSpawn instanceof MobEntity)
@@ -109,7 +114,10 @@ public class MonsterTrapSpawnerProcedure {
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == MonsterTrapPigItem.block)) {
 			if (world instanceof ServerWorld) {
-				Entity entityToSpawn = new CowEntity(EntityType.COW, (World) world);
+				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, y, z, (int) 50, 3, 3, 3, 1);
+			}
+			if (world instanceof ServerWorld) {
+				Entity entityToSpawn = new PigEntity(EntityType.PIG, (World) world);
 				entityToSpawn.setLocationAndAngles(x, (y + 1), z, world.getRandom().nextFloat() * 360F, 0);
 				if (entityToSpawn instanceof MobEntity)
 					((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
