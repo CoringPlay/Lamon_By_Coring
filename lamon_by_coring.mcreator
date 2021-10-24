@@ -1436,13 +1436,47 @@
       "path": "~/Item/Monster trap/Passiv"
     },
     {
-      "name": "MonsterTrapProcedures",
+      "name": "MonsterTrapSpawner",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "monster_trap_procedures",
+      "registry_name": "monster_trap_spawner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Item/Monster trap"
+    },
+    {
+      "name": "MonsterTrapProc",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_trap_proc",
       "metadata": {
         "dependencies": [
           {
@@ -1452,23 +1486,6 @@
         ]
       },
       "path": "~/Item/Monster trap"
-    },
-    {
-      "name": "MonsterTrapKoghdaNazhataPkmPoVozdukhu",
-      "type": "procedure",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "monster_trap_koghda_nazhata_pkm_po_vozdukhu",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
