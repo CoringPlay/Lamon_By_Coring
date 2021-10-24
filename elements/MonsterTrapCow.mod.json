@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "monster_trap",
+    "texture": "monster_trap_cow",
     "customModelName": "Normal",
     "name": "Monster Trap",
     "rarity": "COMMON",
@@ -24,14 +24,13 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "(cow)"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "MonsterTrapKoghdaNazhataPkmPoVozdukhu"
-    },
     "hasDispenseBehavior": false
   }
 }
