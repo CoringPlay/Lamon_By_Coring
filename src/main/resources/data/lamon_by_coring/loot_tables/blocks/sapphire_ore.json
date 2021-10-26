@@ -2,27 +2,15 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "lamon_by_coring:sapphire_item",
           "weight": 1,
-          "conditions": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:silk_touch",
-                    "levels": {
-                      "min": 1
-                    }
-                  }
-                ]
-              }
-            }
-          ],
           "functions": [
             {
               "function": "set_count",
@@ -35,7 +23,7 @@
               "function": "enchant_with_levels",
               "treasure": true,
               "levels": {
-                "min": 0,
+                "min": 1,
                 "max": 4
               }
             },

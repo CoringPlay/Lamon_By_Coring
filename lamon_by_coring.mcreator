@@ -1470,16 +1470,6 @@
       "path": "~/Item/Monster trap/Passiv"
     },
     {
-      "name": "Titanium",
-      "type": "tag",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "titanium",
-      "path": "~/Tags"
-    },
-    {
       "name": "MonsterTrapFox",
       "type": "item",
       "sortid": 142,
@@ -1488,6 +1478,25 @@
       "ids": {},
       "registry_name": "monster_trap_fox",
       "path": "~/Item/Monster trap/Passiv"
+    },
+    {
+      "name": "Titanium",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium",
+      "path": "~/Tags"
+    },
+    {
+      "name": "Test",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
@@ -1567,6 +1576,7 @@
       "item.lamon_by_coring.titanium_pickaxe": "Titanium Pickaxe",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",
       "item.lamon_by_coring.apple_in_honey": "Apple In Honey",
+      "item.lamon_by_coring.test": "Test",
       "advancements.beautiful_desert.descr": "Find the colored desert"
     }
   },

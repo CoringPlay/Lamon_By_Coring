@@ -6,9 +6,9 @@
     "pools": [
       {
         "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
+        "maxrolls": 4,
+        "minbonusrolls": 2,
+        "maxbonusrolls": 3,
         "hasbonusrolls": false,
         "entries": [
           {
@@ -19,11 +19,11 @@
             "weight": 1,
             "minCount": 1,
             "maxCount": 4,
-            "minEnchantmentLevel": 0,
+            "minEnchantmentLevel": 1,
             "maxEnchantmentLevel": 4,
             "affectedByFortune": true,
             "explosionDecay": false,
-            "silkTouchMode": 1
+            "silkTouchMode": 0
           }
         ]
       }
