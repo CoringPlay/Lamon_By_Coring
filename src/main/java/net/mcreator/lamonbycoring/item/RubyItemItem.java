@@ -16,7 +16,7 @@ public class RubyItemItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:ruby_item")
 	public static final Item block = null;
 	public RubyItemItem(LamonByCoringModElements instance) {
-		super(instance, 114);
+		super(instance, 33);
 	}
 
 	@Override

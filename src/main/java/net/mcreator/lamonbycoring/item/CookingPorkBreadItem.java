@@ -17,7 +17,7 @@ public class CookingPorkBreadItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:cooking_pork_bread")
 	public static final Item block = null;
 	public CookingPorkBreadItem(LamonByCoringModElements instance) {
-		super(instance, 35);
+		super(instance, 48);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 	public static Biome biome;
 	public FrostuForestBiome(LamonByCoringModElements instance) {
-		super(instance, 108);
+		super(instance, 117);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

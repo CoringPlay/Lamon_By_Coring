@@ -16,7 +16,7 @@ public class SapphireitemItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:sapphire_item")
 	public static final Item block = null;
 	public SapphireitemItem(LamonByCoringModElements instance) {
-		super(instance, 24);
+		super(instance, 29);
 	}
 
 	@Override

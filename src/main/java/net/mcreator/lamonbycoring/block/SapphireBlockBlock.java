@@ -26,7 +26,7 @@ public class SapphireBlockBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:sapphire_block")
 	public static final Block block = null;
 	public SapphireBlockBlock(LamonByCoringModElements instance) {
-		super(instance, 4);
+		super(instance, 2);
 	}
 
 	@Override

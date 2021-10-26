@@ -16,7 +16,7 @@ public class EssenceoftheEndItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:essenceofthe_end")
 	public static final Item block = null;
 	public EssenceoftheEndItem(LamonByCoringModElements instance) {
-		super(instance, 115);
+		super(instance, 34);
 	}
 
 	@Override

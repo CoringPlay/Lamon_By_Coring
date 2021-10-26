@@ -40,10 +40,10 @@ import java.util.Collections;
 
 @LamonByCoringModElements.ModElement.Tag
 public class TitanWallBlock extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titan_wall")
+	@ObjectHolder("lamon_by_coring:titanium_wall")
 	public static final Block block = null;
 	public TitanWallBlock(LamonByCoringModElements instance) {
-		super(instance, 121);
+		super(instance, 5);
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class TitanWallBlock extends LamonByCoringModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
-			setRegistryName("titan_wall");
+			setRegistryName("titanium_wall");
 		}
 		private static final VoxelShape CENTER_POLE_SHAPE = Block.makeCuboidShape(7.0D, 0.0D, 7.0D, 9.0D, 16.0D, 9.0D);
 		private static final VoxelShape WALL_CONNECTION_NORTH_SIDE_SHAPE = Block.makeCuboidShape(7.0D, 0.0D, 0.0D, 9.0D, 16.0D, 9.0D);

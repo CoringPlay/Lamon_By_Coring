@@ -48,7 +48,7 @@ public class LImeSandBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:lime_sand")
 	public static final Block block = null;
 	public LImeSandBlock(LamonByCoringModElements instance) {
-		super(instance, 16);
+		super(instance, 18);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -47,7 +47,7 @@ public class RubyOreBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:ruby_ore")
 	public static final Block block = null;
 	public RubyOreBlock(LamonByCoringModElements instance) {
-		super(instance, 114);
+		super(instance, 6);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

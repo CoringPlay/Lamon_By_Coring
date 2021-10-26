@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "monster_trap_pig",
+    "texture": "monster_trap_fox",
     "customModelName": "Normal",
     "name": "Monster Trap",
     "rarity": "COMMON",
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§7(pig)"
+      "§7(fox)"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

@@ -14,7 +14,7 @@
     {
       "name": "Sapphireitem",
       "type": "item",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "TitanIngot",
       "type": "item",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -44,7 +44,7 @@
     {
       "name": "TitanIngotFurnace",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -54,7 +54,7 @@
     {
       "name": "Gems",
       "type": "tag",
-      "sortid": 45,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -64,7 +64,7 @@
     {
       "name": "Sapphire",
       "type": "tag",
-      "sortid": 46,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -74,7 +74,7 @@
     {
       "name": "Ingots",
       "type": "tag",
-      "sortid": 47,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -82,19 +82,9 @@
       "path": "~/Tags"
     },
     {
-      "name": "Titan",
-      "type": "tag",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "titan",
-      "path": "~/Tags"
-    },
-    {
       "name": "BeaconPaymentItems",
       "type": "tag",
-      "sortid": 49,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -114,7 +104,7 @@
     {
       "name": "MiniHome1",
       "type": "structure",
-      "sortid": 50,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -124,7 +114,7 @@
     {
       "name": "StorageBlocks",
       "type": "tag",
-      "sortid": 51,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -134,7 +124,7 @@
     {
       "name": "StorageblocksSapphire",
       "type": "tag",
-      "sortid": 52,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -144,7 +134,7 @@
     {
       "name": "MeduimTree1",
       "type": "structure",
-      "sortid": 53,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +144,7 @@
     {
       "name": "RedSand",
       "type": "block",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -164,7 +154,7 @@
     {
       "name": "GreenSand",
       "type": "block",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -174,7 +164,7 @@
     {
       "name": "YellowSand",
       "type": "block",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +174,7 @@
     {
       "name": "SapphireBlockCraft",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -194,7 +184,7 @@
     {
       "name": "BlackSand",
       "type": "block",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -204,7 +194,7 @@
     {
       "name": "BrownSand",
       "type": "block",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -214,7 +204,7 @@
     {
       "name": "ColorDesert",
       "type": "biome",
-      "sortid": 55,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,7 +214,7 @@
     {
       "name": "BlueSand",
       "type": "block",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -234,7 +224,7 @@
     {
       "name": "WhiteSand",
       "type": "block",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +234,7 @@
     {
       "name": "PinkSand",
       "type": "block",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -254,7 +244,7 @@
     {
       "name": "OrangeSand",
       "type": "block",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +254,7 @@
     {
       "name": "MagentaSand",
       "type": "block",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +264,7 @@
     {
       "name": "LightBlueSand",
       "type": "block",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -284,7 +274,7 @@
     {
       "name": "LImeSand",
       "type": "block",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -294,7 +284,7 @@
     {
       "name": "GraySand",
       "type": "block",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -304,7 +294,7 @@
     {
       "name": "LightGraySand",
       "type": "block",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +304,7 @@
     {
       "name": "CyanSand",
       "type": "block",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -324,7 +314,7 @@
     {
       "name": "PurpleSand",
       "type": "block",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -344,7 +334,7 @@
     {
       "name": "GlassDoor",
       "type": "block",
-      "sortid": 34,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -354,7 +344,7 @@
     {
       "name": "PressedPotatoesBlock",
       "type": "block",
-      "sortid": 35,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -364,7 +354,7 @@
     {
       "name": "Sand",
       "type": "tag",
-      "sortid": 56,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -374,7 +364,7 @@
     {
       "name": "TitanBlockCraft",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -384,7 +374,7 @@
     {
       "name": "TitanNagget",
       "type": "item",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -394,7 +384,7 @@
     {
       "name": "TitanNaggetCraft",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +394,7 @@
     {
       "name": "TitanIngotCraft",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -414,7 +404,7 @@
     {
       "name": "TitanHelmet",
       "type": "armor",
-      "sortid": 36,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -430,7 +420,7 @@
     {
       "name": "SapphireDrop",
       "type": "loottable",
-      "sortid": 60,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -440,7 +430,7 @@
     {
       "name": "Titansword",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -450,7 +440,7 @@
     {
       "name": "TitanSwordCraft",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -460,7 +450,7 @@
     {
       "name": "TitanHelmetCraft",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -470,7 +460,7 @@
     {
       "name": "TitanChestplate",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -480,7 +470,7 @@
     {
       "name": "TitanLeggins",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -490,7 +480,7 @@
     {
       "name": "TitanBoots",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -500,7 +490,7 @@
     {
       "name": "RedSandCraft",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -510,7 +500,7 @@
     {
       "name": "BlackSandCraft",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -520,7 +510,7 @@
     {
       "name": "YellowSandCraft",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -530,7 +520,7 @@
     {
       "name": "WhiteSandCraft",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -540,7 +530,7 @@
     {
       "name": "PurpleSandCraft",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -550,7 +540,7 @@
     {
       "name": "PinkSandCraft",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -560,7 +550,7 @@
     {
       "name": "OrangeSandCraft",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -570,7 +560,7 @@
     {
       "name": "MagentaSandCraft",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -580,7 +570,7 @@
     {
       "name": "LightGraySandCraft",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -590,7 +580,7 @@
     {
       "name": "LightBlueCraft",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -600,7 +590,7 @@
     {
       "name": "BlueSandCraft",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -610,7 +600,7 @@
     {
       "name": "BrownSandCraft",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -620,7 +610,7 @@
     {
       "name": "CyanSandCraft",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -630,7 +620,7 @@
     {
       "name": "GraySandCraft",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -640,7 +630,7 @@
     {
       "name": "GreenSandCraft",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -650,7 +640,7 @@
     {
       "name": "LimeSandCraft",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -660,7 +650,7 @@
     {
       "name": "CauldronLevel3",
       "type": "block",
-      "sortid": 82,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -670,7 +660,7 @@
     {
       "name": "CauldronLevel2",
       "type": "block",
-      "sortid": 83,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -680,7 +670,7 @@
     {
       "name": "CauldronLevel1",
       "type": "block",
-      "sortid": 84,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -690,7 +680,7 @@
     {
       "name": "CauldronProc",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -724,7 +714,7 @@
     {
       "name": "FrostyFoliage",
       "type": "block",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -734,7 +724,7 @@
     {
       "name": "SlimeBlock",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -744,7 +734,7 @@
     {
       "name": "Slimeball",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -754,7 +744,7 @@
     {
       "name": "LeavesBlock",
       "type": "tag",
-      "sortid": 88,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -764,7 +754,7 @@
     {
       "name": "LogsBlock",
       "type": "tag",
-      "sortid": 89,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -774,7 +764,7 @@
     {
       "name": "TitanShovel",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -784,7 +774,7 @@
     {
       "name": "Frostylogs",
       "type": "block",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -794,7 +784,7 @@
     {
       "name": "FrostyPlancks",
       "type": "block",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -804,7 +794,7 @@
     {
       "name": "FrostyLogsCraft",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -814,7 +804,7 @@
     {
       "name": "Planks",
       "type": "tag",
-      "sortid": 92,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -824,7 +814,7 @@
     {
       "name": "CookingBeefBreadCraft",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -834,7 +824,7 @@
     {
       "name": "PorkBread",
       "type": "food",
-      "sortid": 40,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -844,7 +834,7 @@
     {
       "name": "PorkBreadCraft",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -854,7 +844,7 @@
     {
       "name": "CookingPorkBread",
       "type": "food",
-      "sortid": 41,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -864,7 +854,7 @@
     {
       "name": "CookingPorkBreadCraft",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -874,7 +864,7 @@
     {
       "name": "AcaciaBoat",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -884,7 +874,7 @@
     {
       "name": "BirchBoat",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -894,7 +884,7 @@
     {
       "name": "DarkOakBoat",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -904,7 +894,7 @@
     {
       "name": "JungleBoat",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -914,7 +904,7 @@
     {
       "name": "OakBoat",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -924,7 +914,7 @@
     {
       "name": "TitanPickaxeCraft",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -934,7 +924,7 @@
     {
       "name": "TitanShovelCraft",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -944,7 +934,7 @@
     {
       "name": "FishingHook",
       "type": "item",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -954,7 +944,7 @@
     {
       "name": "FishingHookCraft",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -964,7 +954,7 @@
     {
       "name": "FishingRod",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -974,7 +964,7 @@
     {
       "name": "Flintandsteel",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -984,7 +974,7 @@
     {
       "name": "Shear",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -994,7 +984,7 @@
     {
       "name": "BrewingStand",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1004,7 +994,7 @@
     {
       "name": "PressedPotatoesBlockCraft",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1014,7 +1004,7 @@
     {
       "name": "AppleInHoney",
       "type": "food",
-      "sortid": 43,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1024,7 +1014,7 @@
     {
       "name": "AppleInHoneyCraft",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1034,7 +1024,7 @@
     {
       "name": "TitanPickaxe",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1044,7 +1034,7 @@
     {
       "name": "CookingBeefBread",
       "type": "food",
-      "sortid": 42,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1054,7 +1044,7 @@
     {
       "name": "Torch",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1064,7 +1054,7 @@
     {
       "name": "FrostuForest",
       "type": "biome",
-      "sortid": 112,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1074,7 +1064,7 @@
     {
       "name": "Colorbeach",
       "type": "biome",
-      "sortid": 113,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1084,7 +1074,7 @@
     {
       "name": "BeautifulDesert",
       "type": "achievement",
-      "sortid": 114,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1094,7 +1084,7 @@
     {
       "name": "LamonAch",
       "type": "achievement",
-      "sortid": 115,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1104,7 +1094,7 @@
     {
       "name": "PoisonousPotato",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1114,7 +1104,7 @@
     {
       "name": "GrassBlock",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1124,7 +1114,7 @@
     {
       "name": "RubyItem",
       "type": "item",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1134,7 +1124,7 @@
     {
       "name": "RubyOre",
       "type": "block",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1144,7 +1134,7 @@
     {
       "name": "EssenceoftheEnd",
       "type": "item",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1154,7 +1144,7 @@
     {
       "name": "Essenceoftheendproc",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1188,7 +1178,7 @@
     {
       "name": "EssenceoftheendCraft",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1198,7 +1188,7 @@
     {
       "name": "Mycelium",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1208,7 +1198,7 @@
     {
       "name": "FrosryStairs",
       "type": "block",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1218,7 +1208,7 @@
     {
       "name": "FrostySlab",
       "type": "block",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1228,7 +1218,7 @@
     {
       "name": "FrostyFence",
       "type": "block",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1238,17 +1228,17 @@
     {
       "name": "TitanWall",
       "type": "block",
-      "sortid": 121,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "titan_wall",
+      "registry_name": "titanium_wall",
       "path": "~/Block/Wall"
     },
     {
       "name": "IronRing",
       "type": "item",
-      "sortid": 122,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1258,7 +1248,7 @@
     {
       "name": "ChainmailHelmet",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1268,7 +1258,7 @@
     {
       "name": "ChainmailChestplate",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1278,7 +1268,7 @@
     {
       "name": "ChainmailLeggings",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1288,7 +1278,7 @@
     {
       "name": "ChainmailBoots",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1298,7 +1288,7 @@
     {
       "name": "Ring",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1308,7 +1298,7 @@
     {
       "name": "SpruceBoat",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1318,7 +1308,7 @@
     {
       "name": "Bell",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1328,7 +1318,7 @@
     {
       "name": "CoalMini",
       "type": "item",
-      "sortid": 129,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1338,7 +1328,7 @@
     {
       "name": "CoalMiniCraft",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1348,7 +1338,7 @@
     {
       "name": "CoalCraft",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1358,7 +1348,7 @@
     {
       "name": "CharcoalMini",
       "type": "item",
-      "sortid": 132,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1368,7 +1358,7 @@
     {
       "name": "CharcoalMiniCraft",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1378,7 +1368,7 @@
     {
       "name": "CharcoalCraft",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1388,7 +1378,7 @@
     {
       "name": "CoalsMini",
       "type": "tag",
-      "sortid": 135,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1398,7 +1388,7 @@
     {
       "name": "CoalMiniFuel",
       "type": "fuel",
-      "sortid": 136,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1408,7 +1398,7 @@
     {
       "name": "CharcoalMiniFuel",
       "type": "fuel",
-      "sortid": 137,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1418,7 +1408,7 @@
     {
       "name": "MonsterTrap",
       "type": "item",
-      "sortid": 138,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1428,7 +1418,7 @@
     {
       "name": "MonsterTrapCow",
       "type": "item",
-      "sortid": 139,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1438,7 +1428,7 @@
     {
       "name": "MonsterTrapSpawner",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1472,11 +1462,31 @@
     {
       "name": "MonsterTrapPig",
       "type": "item",
-      "sortid": 143,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "monster_trap_pig",
+      "path": "~/Item/Monster trap/Passiv"
+    },
+    {
+      "name": "Titanium",
+      "type": "tag",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium",
+      "path": "~/Tags"
+    },
+    {
+      "name": "MonsterTrapFox",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_trap_fox",
       "path": "~/Item/Monster trap/Passiv"
     }
   ],
@@ -1505,13 +1515,13 @@
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "advancements.lamon_ach.title": "Lamon",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
+      "block.lamon_by_coring.titanium_wall": "Titan Wall",
       "item.lamon_by_coring.cooking_pork_bread": "Cooking Pork Bread",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "block.lamon_by_coring.glass_door": "Glass Door",
       "block.lamon_by_coring.titanium_block": "Titanium Block",
       "item.lamon_by_coring.cooking_beef_bread": "Cooking Beef Bread",
       "item.lamon_by_coring.ruby_item": "Ruby Item",
-      "block.lamon_by_coring.titan_wall": "Titan Wall",
       "item.lamon_by_coring.titanium_helmet": "Titanium Helmet",
       "item.lamon_by_coring.fishing_hook": "Fishing Hook",
       "item.lamon_by_coring.titanium_boots": "Titanium Boots",
@@ -1531,6 +1541,7 @@
       "item.lamon_by_coring.titanium_chestplate": "Titanium Chestplat",
       "item.lamon_by_coring.titan_pickaxe": "Titan Pickaxe",
       "item.lamon_by_coring.pork_bread": "Pork Bread",
+      "item.lamon_by_coring.monster_trap_fox": "Monster Trap",
       "biome.lamon_by_coring.color_beach": "Color beach",
       "block.lamon_by_coring.frosty_plancks": "Frosty Plancks",
       "block.lamon_by_coring.titanium_ore": "Titanium Ore",
@@ -1755,7 +1766,7 @@
   "workspaceSettings": {
     "modid": "lamon_by_coring",
     "modName": "lamon by Coring",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Coring, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",

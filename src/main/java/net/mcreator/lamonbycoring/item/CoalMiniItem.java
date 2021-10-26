@@ -16,7 +16,7 @@ public class CoalMiniItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:coal_mini")
 	public static final Item block = null;
 	public CoalMiniItem(LamonByCoringModElements instance) {
-		super(instance, 129);
+		super(instance, 36);
 	}
 
 	@Override

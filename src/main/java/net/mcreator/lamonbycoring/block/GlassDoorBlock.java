@@ -31,7 +31,7 @@ public class GlassDoorBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:glass_door")
 	public static final Block block = null;
 	public GlassDoorBlock(LamonByCoringModElements instance) {
-		super(instance, 28);
+		super(instance, 41);
 	}
 
 	@Override

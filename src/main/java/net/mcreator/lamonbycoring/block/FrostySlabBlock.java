@@ -25,7 +25,7 @@ public class FrostySlabBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_slab")
 	public static final Block block = null;
 	public FrostySlabBlock(LamonByCoringModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override

@@ -38,7 +38,7 @@ public class PressedPotatoesBlockBlock extends LamonByCoringModElements.ModEleme
 	@ObjectHolder("lamon_by_coring:pressed_potatoes_block")
 	public static final Block block = null;
 	public PressedPotatoesBlockBlock(LamonByCoringModElements instance) {
-		super(instance, 29);
+		super(instance, 42);
 	}
 
 	@Override

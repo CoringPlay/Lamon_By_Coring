@@ -3,20 +3,26 @@ package net.mcreator.lamonbycoring.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
+import java.util.List;
+
 @LamonByCoringModElements.ModElement.Tag
-public class TitanIngotItem extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:titanium_ingot")
+public class MonsterTrapFoxItem extends LamonByCoringModElements.ModElement {
+	@ObjectHolder("lamon_by_coring:monster_trap_fox")
 	public static final Item block = null;
-	public TitanIngotItem(LamonByCoringModElements instance) {
-		super(instance, 30);
+	public MonsterTrapFoxItem(LamonByCoringModElements instance) {
+		super(instance, 142);
 	}
 
 	@Override
@@ -26,7 +32,7 @@ public class TitanIngotItem extends LamonByCoringModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("titanium_ingot");
+			setRegistryName("monster_trap_fox");
 		}
 
 		@Override
@@ -42,6 +48,12 @@ public class TitanIngotItem extends LamonByCoringModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("\u00A77(fox)"));
 		}
 	}
 }
