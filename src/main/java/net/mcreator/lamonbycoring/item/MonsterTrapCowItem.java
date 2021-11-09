@@ -22,7 +22,7 @@ public class MonsterTrapCowItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:monster_trap_cow")
 	public static final Item block = null;
 	public MonsterTrapCowItem(LamonByCoringModElements instance) {
-		super(instance, 139);
+		super(instance, 39);
 	}
 
 	@Override
