@@ -9,14 +9,9 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
-import net.minecraft.client.renderer.entity.layers.LayerRenderer;
 import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.IEntityRenderer;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.IRenderTypeBuffer;
 
 import net.mcreator.lamonbycoring.entity.CrabEntity;
 
@@ -31,28 +26,12 @@ public class CrabRenderer {
 		public void registerModels(ModelRegistryEvent event) {
 			RenderingRegistry.registerEntityRenderingHandler(CrabEntity.entity, renderManager -> {
 				return new MobRenderer(renderManager, new Modelcrab(), 0.5f) {
-					{
-						this.addLayer(new GlowingLayer<>(this));
-					}
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("lamon_by_coring:textures/crab_*.png");
+						return new ResourceLocation("lamon_by_coring:textures/crab/green.png");
 					}
 				};
 			});
-		}
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	private static class GlowingLayer<T extends Entity, M extends EntityModel<T>> extends LayerRenderer<T, M> {
-		public GlowingLayer(IEntityRenderer<T, M> er) {
-			super(er);
-		}
-
-		public void render(MatrixStack matrixStackIn, IRenderTypeBuffer bufferIn, int packedLightIn, T entitylivingbaseIn, float limbSwing,
-				float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
-			IVertexBuilder ivertexbuilder = bufferIn.getBuffer(RenderType.getEyes(new ResourceLocation("lamon_by_coring:textures/crab_glow.png")));
-			this.getEntityModel().render(matrixStackIn, ivertexbuilder, 15728640, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1);
 		}
 	}
 
