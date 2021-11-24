@@ -17,7 +17,6 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.state.Property;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -33,6 +32,7 @@ import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.lamonbycoring.itemgroup.CreativeTabBlockItemGroup;
 import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 import java.util.List;
@@ -43,14 +43,14 @@ public class TitanWallBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_wall")
 	public static final Block block = null;
 	public TitanWallBlock(LamonByCoringModElements instance) {
-		super(instance, 5);
+		super(instance, 7);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

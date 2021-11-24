@@ -15,7 +15,6 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -28,6 +27,7 @@ import net.minecraft.block.FallingBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.lamonbycoring.itemgroup.CreativeTabBlockItemGroup;
 import net.mcreator.lamonbycoring.LamonByCoringModElements;
 
 import java.util.List;
@@ -38,13 +38,14 @@ public class PressedPotatoesBlockBlock extends LamonByCoringModElements.ModEleme
 	@ObjectHolder("lamon_by_coring:pressed_potatoes_block")
 	public static final Block block = null;
 	public PressedPotatoesBlockBlock(LamonByCoringModElements instance) {
-		super(instance, 42);
+		super(instance, 1);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

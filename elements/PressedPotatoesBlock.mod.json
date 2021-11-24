@@ -39,7 +39,7 @@
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:CreativeTabBlock"
     },
     "destroyTool": "Not specified",
     "customDrop": {

@@ -9,7 +9,7 @@
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:CreativeTabFood"
     },
     "stackSize": 64,
     "nutritionalValue": 8,

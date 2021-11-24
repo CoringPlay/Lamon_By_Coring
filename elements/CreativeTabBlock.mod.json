@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Block - Lamon",
+    "icon": {
+      "value": "CUSTOM:SapphireBlock"
+    },
+    "showSearch": true
+  }
+}
