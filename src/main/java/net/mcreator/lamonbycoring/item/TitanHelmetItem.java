@@ -37,7 +37,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_boots")
 	public static final Item boots = null;
 	public TitanHelmetItem(LamonByCoringModElements instance) {
-		super(instance, 43);
+		super(instance, 45);
 	}
 
 	@Override
@@ -98,7 +98,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "lamon_by_coring:textures/titan_armor_layer_1.png";
+				return "lamon_by_coring:textures/models/armor/titan_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("titanium_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
@@ -117,7 +117,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "lamon_by_coring:textures/titan_armor_layer_1.png";
+				return "lamon_by_coring:textures/models/armor/titan_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("titanium_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
@@ -135,7 +135,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "lamon_by_coring:textures/titan_armor_layer_1.png";
+				return "lamon_by_coring:textures/models/armor/titan_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("titanium_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
@@ -153,7 +153,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "lamon_by_coring:textures/titan_armor_layer_1.png";
+				return "lamon_by_coring:textures/models/armor/titan_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("titanium_boots"));
 	}

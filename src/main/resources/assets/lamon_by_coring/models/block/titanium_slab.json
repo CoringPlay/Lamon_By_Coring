@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "lamon_by_coring:blocks/titan_block",
+    "top": "lamon_by_coring:blocks/titan_block",
+    "side": "lamon_by_coring:blocks/titan_block"
+  }
+}

@@ -8,6 +8,7 @@ version="0.0.2"
 displayName="lamon by Coring"
 credits="Created using mod maker MCreator - https://mcreator.net"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="Coring, MCreator"
 
 [[dependencies.lamon_by_coring]]
