@@ -886,7 +886,7 @@
       "type": "recipe",
       "sortid": 105,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "dark_oak_boat",
       "path": "~/Craft/Vanilla"
@@ -1526,6 +1526,16 @@
       "ids": {},
       "registry_name": "titanium_slab",
       "path": "~/Block/Slab"
+    },
+    {
+      "name": "FrostyParticles",
+      "type": "particle",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frosty_particles",
+      "path": "~/Particles"
     }
   ],
   "variable_elements": [],
@@ -1554,7 +1564,7 @@
       "block.lamon_by_coring.sapphire_ore": "Sapphire Ore",
       "advancements.lamon_ach.title": "Lamon",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
-      "block.lamon_by_coring.titanium_wall": "Titan Wall",
+      "block.lamon_by_coring.titanium_wall": "Titanium Wall",
       "item.lamon_by_coring.cooking_pork_bread": "Cooking Pork Bread",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "itemGroup.tabcreative_tab_block": "Block - Lamon",

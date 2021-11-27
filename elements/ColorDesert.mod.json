@@ -50,7 +50,7 @@
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
-    "cactiPerChunk": 3,
+    "cactiPerChunk": 10,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,

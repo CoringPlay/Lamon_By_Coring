@@ -10,7 +10,11 @@
       "value": "Blocks.DIRT#0"
     },
     "grassColor": {
-      "value": -12023746,
+      "value": -16751002,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -436181402,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -26,16 +30,16 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:FrostyParticles"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 15.0,
     "biomeCategory": "ICY",
     "parent": {
       "value": "frozen_ocean"
     },
-    "rainingPossibility": 0.6,
+    "rainingPossibility": 0.1,
     "temperature": 0.1,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
@@ -46,19 +50,19 @@
       "SNOWY",
       "COLD"
     ],
-    "grassPerChunk": 0,
-    "seagrassPerChunk": 0,
+    "grassPerChunk": 6,
+    "seagrassPerChunk": 2,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
+    "bigMushroomsChunk": 2,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 4,
+    "treesPerChunk": 9,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 5,
+    "minHeight": 4,
     "maxWaterDepth": 1,
     "treeStem": {
       "value": "CUSTOM:Frostylogs"
@@ -88,6 +92,25 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAnimal"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityMonster"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

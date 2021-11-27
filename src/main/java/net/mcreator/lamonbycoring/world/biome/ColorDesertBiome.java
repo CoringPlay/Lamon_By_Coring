@@ -34,7 +34,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class ColorDesertBiome extends LamonByCoringModElements.ModElement {
 	public static Biome biome;
 	public ColorDesertBiome(LamonByCoringModElements instance) {
-		super(instance, 62);
+		super(instance, 63);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -53,7 +53,7 @@ public class ColorDesertBiome extends LamonByCoringModElements.ModElement {
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(
 								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.CACTUS.getDefaultState()),
-										new ColumnBlockPlacer(1, 2))).tries(3).func_227317_b_().build()));
+										new ColumnBlockPlacer(1, 2))).tries(10).func_227317_b_().build()));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withDesertWells(biomeGenerationSettings);
