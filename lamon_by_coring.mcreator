@@ -1536,6 +1536,26 @@
       "ids": {},
       "registry_name": "frosty_particles",
       "path": "~/Particles"
+    },
+    {
+      "name": "AndesiteCoalOreloot",
+      "type": "loottable",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_coal_oreloot",
+      "path": "~/Loot Drop/Block"
+    },
+    {
+      "name": "AndesiteCoalOre",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_coal_ore",
+      "path": "~/Block/ore"
     }
   ],
   "variable_elements": [],
@@ -1597,6 +1617,7 @@
       "block.lamon_by_coring.titanium_ore": "Titanium Ore",
       "item.lamon_by_coring.titanium_ingot": "Titanium Ingot",
       "block.lamon_by_coring.brown_sand": "Brown Sand",
+      "block.lamon_by_coring.andesite_coal_ore": "Andesite Coal Ore",
       "item.lamon_by_coring.titanium_nagget": "Titanium Nagget",
       "block.lamon_by_coring.frosry_stairs": "Frosry Stairs",
       "entity.lamon_by_coring.crab": "Crab",

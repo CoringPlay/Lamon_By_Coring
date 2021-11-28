@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lamon_by_coring:blocks/andesite_coal_ore",
+    "up": "lamon_by_coring:blocks/andesite_coal_ore",
+    "north": "lamon_by_coring:blocks/andesite_coal_ore",
+    "east": "lamon_by_coring:blocks/andesite_coal_ore",
+    "south": "lamon_by_coring:blocks/andesite_coal_ore",
+    "west": "lamon_by_coring:blocks/andesite_coal_ore",
+    "particle": "lamon_by_coring:blocks/andesite_coal_ore"
+  }
+}
