@@ -176,7 +176,7 @@
       "type": "recipe",
       "sortid": 62,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "sapphire_block_craft",
       "path": "~/Craft"
@@ -442,7 +442,7 @@
       "type": "recipe",
       "sortid": 69,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_sword_craft",
       "path": "~/Craft/Craft Tool"
@@ -452,7 +452,7 @@
       "type": "recipe",
       "sortid": 70,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_helmet_craft",
       "path": "~/Craft/Craft_Armor/Titan_Armor"
@@ -462,7 +462,7 @@
       "type": "recipe",
       "sortid": 71,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_chestplate",
       "path": "~/Craft/Craft_Armor/Titan_Armor"
@@ -472,7 +472,7 @@
       "type": "recipe",
       "sortid": 72,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_leggins",
       "path": "~/Craft/Craft_Armor/Titan_Armor"
@@ -482,7 +482,7 @@
       "type": "recipe",
       "sortid": 73,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_boots",
       "path": "~/Craft/Craft_Armor/Titan_Armor"
@@ -916,7 +916,7 @@
       "type": "recipe",
       "sortid": 108,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_pickaxe_craft",
       "path": "~/Craft/Craft Tool"
@@ -926,7 +926,7 @@
       "type": "recipe",
       "sortid": 109,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_shovel_craft",
       "path": "~/Craft/Craft Tool"
@@ -1250,7 +1250,7 @@
       "type": "recipe",
       "sortid": 127,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "chainmail_helmet",
       "path": "~/Craft/Craft_Armor/Chainmail_Armor"
@@ -1260,7 +1260,7 @@
       "type": "recipe",
       "sortid": 128,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "chainmail_chestplate",
       "path": "~/Craft/Craft_Armor/Chainmail_Armor"
@@ -1270,7 +1270,7 @@
       "type": "recipe",
       "sortid": 129,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "chainmail_leggings",
       "path": "~/Craft/Craft_Armor/Chainmail_Armor"
@@ -1280,7 +1280,7 @@
       "type": "recipe",
       "sortid": 130,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "chainmail_boots",
       "path": "~/Craft/Craft_Armor/Chainmail_Armor"
@@ -1340,7 +1340,7 @@
       "type": "recipe",
       "sortid": 135,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "coal_craft",
       "path": "~/Craft"
@@ -1370,7 +1370,7 @@
       "type": "recipe",
       "sortid": 137,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "charcoal_craft",
       "path": "~/Craft"

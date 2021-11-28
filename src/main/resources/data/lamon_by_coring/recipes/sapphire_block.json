@@ -1,35 +1,16 @@
 {
   "group": "lamon_by_coring",
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
-      "item": "lamon_by_coring:sapphire_item"
-    },
-    {
+    "pattern": [
+    "000",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
       "item": "lamon_by_coring:sapphire_item"
     }
-  ],
+  },
   "result": {
     "item": "lamon_by_coring:sapphire_block",
     "count": 1

@@ -2,20 +2,11 @@
   "group": "lamon_by_coring",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
-    "3 5"
+    "0 0",
+    "0 0"
   ],
   "key": {
     "0": {
-      "item": "lamon_by_coring:iron_ring"
-    },
-    "2": {
-      "item": "lamon_by_coring:iron_ring"
-    },
-    "3": {
-      "item": "lamon_by_coring:iron_ring"
-    },
-    "5": {
       "item": "lamon_by_coring:iron_ring"
     }
   },

@@ -2,20 +2,11 @@
   "group": "lamon_by_coring",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
-    "3 5"
+    "0 0",
+    "0 0"
   ],
   "key": {
     "0": {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    "2": {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    "3": {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    "5": {
       "item": "lamon_by_coring:titanium_ingot"
     }
   },
