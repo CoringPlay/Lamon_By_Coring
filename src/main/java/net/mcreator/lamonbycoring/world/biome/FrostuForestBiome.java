@@ -21,7 +21,6 @@ import net.minecraft.world.gen.feature.ProbabilityConfig;
 import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.FeatureSpread;
 import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.BigMushroomFeatureConfig;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
@@ -36,7 +35,6 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
-import net.minecraft.block.HugeMushroomBlock;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.lamonbycoring.particle.FrostyParticlesParticle;
@@ -57,7 +55,7 @@ public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
 						.withSkyColor(7972607).withFoliageColor(-436181402).withGrassColor(-16751002)
-						.setParticle(new ParticleEffectAmbience(FrostyParticlesParticle.particle, 0.15f)).build();
+						.setParticle(new ParticleEffectAmbience(FrostyParticlesParticle.particle, 0.005f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
@@ -78,19 +76,6 @@ public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 6))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS
 						.withConfiguration(new ProbabilityConfig(0.3F)).func_242731_b(2).withPlacement(Features.Placements.SEAGRASS_DISK_PLACEMENT));
-				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
-						Feature.HUGE_BROWN_MUSHROOM.withConfiguration(new BigMushroomFeatureConfig(
-								new SimpleBlockStateProvider(Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.UP, Boolean.TRUE)
-										.with(HugeMushroomBlock.DOWN, Boolean.FALSE)),
-								new SimpleBlockStateProvider(Blocks.MUSHROOM_STEM.getDefaultState().with(HugeMushroomBlock.UP, Boolean.FALSE)
-										.with(HugeMushroomBlock.DOWN, Boolean.FALSE)),
-								2)));
-				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
-						Feature.HUGE_RED_MUSHROOM.withConfiguration(new BigMushroomFeatureConfig(
-								new SimpleBlockStateProvider(Blocks.RED_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.FALSE)),
-								new SimpleBlockStateProvider(Blocks.MUSHROOM_STEM.getDefaultState().with(HugeMushroomBlock.UP, Boolean.FALSE)
-										.with(HugeMushroomBlock.DOWN, Boolean.FALSE)),
-								2)));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);

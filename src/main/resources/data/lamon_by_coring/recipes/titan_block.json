@@ -1,35 +1,16 @@
 {
   "group": "lamon_by_coring",
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
-      "item": "lamon_by_coring:titanium_ingot"
-    },
-    {
+    "pattern": [
+    "000",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
       "item": "lamon_by_coring:titanium_ingot"
     }
-  ],
+  },
   "result": {
     "item": "lamon_by_coring:titanium_block",
     "count": 1

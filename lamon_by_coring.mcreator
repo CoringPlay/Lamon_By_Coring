@@ -366,7 +366,7 @@
       "type": "recipe",
       "sortid": 65,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "titan_block_craft",
       "path": "~/Craft"
@@ -726,7 +726,7 @@
       "type": "recipe",
       "sortid": 94,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "slime_block",
       "path": "~/Craft/Vanilla"
@@ -946,7 +946,7 @@
       "type": "recipe",
       "sortid": 110,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "fishing_hook_craft",
       "path": "~/Craft"
@@ -956,7 +956,7 @@
       "type": "recipe",
       "sortid": 111,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "fishing_rod",
       "path": "~/Craft/Vanilla"
@@ -996,7 +996,7 @@
       "type": "recipe",
       "sortid": 115,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "pressed_potatoes_block_craft",
       "path": "~/Craft"
@@ -1180,7 +1180,7 @@
       "type": "recipe",
       "sortid": 125,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "essenceoftheend_craft",
       "path": "~/Craft"
@@ -1290,7 +1290,7 @@
       "type": "recipe",
       "sortid": 131,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "ring",
       "path": "~/Craft"
@@ -1310,7 +1310,7 @@
       "type": "recipe",
       "sortid": 133,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "bell",
       "path": "~/Craft/Vanilla"

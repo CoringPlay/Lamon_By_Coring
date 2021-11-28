@@ -34,7 +34,7 @@
     "particleToSpawn": {
       "value": "CUSTOM:FrostyParticles"
     },
-    "particlesProbability": 15.0,
+    "particlesProbability": 0.5,
     "biomeCategory": "ICY",
     "parent": {
       "value": "frozen_ocean"
@@ -54,7 +54,7 @@
     "seagrassPerChunk": 2,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 2,
+    "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
