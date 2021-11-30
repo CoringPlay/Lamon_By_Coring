@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "andesite_coal_ore",
-    "textureTop": "andesite_coal_ore",
-    "textureLeft": "andesite_coal_ore",
-    "textureFront": "andesite_coal_ore",
-    "textureRight": "andesite_coal_ore",
-    "textureBack": "andesite_coal_ore",
+    "texture": "andesite_diamond_ore",
+    "textureTop": "andesite_diamond_ore",
+    "textureLeft": "andesite_diamond_ore",
+    "textureFront": "andesite_diamond_ore",
+    "textureRight": "andesite_diamond_ore",
+    "textureBack": "andesite_diamond_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Items.COAL#0"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": true,
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:FrostyParticles"
@@ -130,9 +130,9 @@
         "value": "Blocks.STONE#5"
       }
     ],
-    "frequencyPerChunks": 15,
-    "frequencyOnChunk": 17,
-    "minGenerateHeight": 5,
-    "maxGenerateHeight": 128
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 15
   }
 }

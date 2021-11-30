@@ -20,8 +20,31 @@
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 3,
+            "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 2
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 0,
+        "maxbonusrolls": 0,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:AndesiteCoalOre"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 1
           }

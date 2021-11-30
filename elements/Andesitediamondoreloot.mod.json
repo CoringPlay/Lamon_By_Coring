@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Sapphireitem"
+              "value": "Items.DIAMOND"
             },
             "weight": 1,
             "minCount": 1,
@@ -37,7 +37,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:SapphireOre"
+              "value": "CUSTOM:AndesiteDiamondOre"
             },
             "weight": 1,
             "minCount": 1,
@@ -51,7 +51,7 @@
         ]
       }
     ],
-    "name": "blocks/sapphire_ore",
+    "name": "blocks/andesite_diamond_ore",
     "namespace": "mod"
   }
 }

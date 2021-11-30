@@ -39,11 +39,11 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 import java.util.Random;
 
 @LamonByCoringModElements.ModElement.Tag
-public class AndesiteCoalOreBlock extends LamonByCoringModElements.ModElement {
-	@ObjectHolder("lamon_by_coring:andesite_coal_ore")
+public class AndesiteDiamondOreBlock extends LamonByCoringModElements.ModElement {
+	@ObjectHolder("lamon_by_coring:andesite_diamond_ore")
 	public static final Block block = null;
-	public AndesiteCoalOreBlock(LamonByCoringModElements instance) {
-		super(instance, 147);
+	public AndesiteDiamondOreBlock(LamonByCoringModElements instance) {
+		super(instance, 148);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -56,9 +56,9 @@ public class AndesiteCoalOreBlock extends LamonByCoringModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("andesite_coal_ore");
+			setRegistryName("andesite_diamond_ore");
 		}
 
 		@Override
@@ -87,7 +87,7 @@ public class AndesiteCoalOreBlock extends LamonByCoringModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:andesite_coal_ore_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("lamon_by_coring:andesite_diamond_ore_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -101,10 +101,10 @@ public class AndesiteCoalOreBlock extends LamonByCoringModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 17)).range(128)
-					.square().func_242731_b(15);
-			event.getRegistry().register(feature.setRegistryName("andesite_coal_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:andesite_coal_ore"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(15)
+					.square().func_242731_b(1);
+			event.getRegistry().register(feature.setRegistryName("andesite_diamond_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:andesite_diamond_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

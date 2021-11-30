@@ -1506,7 +1506,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "food"
+      "registry_name": "creative_tab_food"
     },
     {
       "name": "CreativeTabBlock",
@@ -1556,6 +1556,46 @@
       "ids": {},
       "registry_name": "andesite_coal_ore",
       "path": "~/Block/ore"
+    },
+    {
+      "name": "AndesiteDiamondOre",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_diamond_ore",
+      "path": "~/Block/ore"
+    },
+    {
+      "name": "Andesitediamondoreloot",
+      "type": "loottable",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesitediamondoreloot",
+      "path": "~/Loot Drop/Block"
+    },
+    {
+      "name": "AndesiteRedstoneOre",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_redstone_ore",
+      "path": "~/Block/ore"
+    },
+    {
+      "name": "AndesiteRedstoneOreloot",
+      "type": "loottable",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_redstone_oreloot",
+      "path": "~/Loot Drop/Block"
     }
   ],
   "variable_elements": [],
@@ -1585,6 +1625,7 @@
       "advancements.lamon_ach.title": "Lamon",
       "block.lamon_by_coring.pink_sand": "Pink Sand",
       "block.lamon_by_coring.titanium_wall": "Titanium Wall",
+      "block.lamon_by_coring.andesite_diamond_ore": "Andesite Coal Ore",
       "item.lamon_by_coring.cooking_pork_bread": "Cooking Pork Bread",
       "block.lamon_by_coring.titan_ore": "Titan Ore",
       "itemGroup.tabcreative_tab_block": "Block - Lamon",
@@ -1626,7 +1667,9 @@
       "item.lamon_by_coring.titan_boots": "Titan Boots",
       "item.lamon_by_coring.titanium_sword": "Titanium Sword",
       "block.lamon_by_coring.cauldron_level_3": "Cauldron",
+      "block.lamon_by_coring.andesite_redstone_ore": "Andesite Coal Ore",
       "item.lamon_by_coring.titan_nagget": "Titan Nagget",
+      "itemGroup.tabcreative_tab_food": "Food - Lamon",
       "block.lamon_by_coring.cauldron_level_1": "Cauldron",
       "biome.lamon_by_coring.frostu_forest": "Frostu Forest",
       "block.lamon_by_coring.light_blue_sand": "Light Blue Sand",
@@ -1636,7 +1679,6 @@
       "block.lamon_by_coring.gray_sand": "Gray Sand",
       "item.lamon_by_coring.iron_ring": "Iron Ring",
       "item.lamon_by_coring.monster_trap": "Monster Trap",
-      "itemGroup.tabfood": "Food - Lamon",
       "item.lamon_by_coring.coal_mini": "Coal Mini",
       "item.lamon_by_coring.titanium_pickaxe": "Titanium Pickaxe",
       "item.lamon_by_coring.titan_chestplate": "Titan Chestplat",

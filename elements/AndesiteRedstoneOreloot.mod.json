@@ -14,11 +14,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Sapphireitem"
+              "value": "Items.REDSTONE"
             },
             "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
+            "minCount": 4,
+            "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
@@ -37,7 +37,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:SapphireOre"
+              "value": "CUSTOM:AndesiteRedstoneOre"
             },
             "weight": 1,
             "minCount": 1,
@@ -51,7 +51,7 @@
         ]
       }
     ],
-    "name": "blocks/sapphire_ore",
+    "name": "blocks/andesite_redstone_ore",
     "namespace": "mod"
   }
 }

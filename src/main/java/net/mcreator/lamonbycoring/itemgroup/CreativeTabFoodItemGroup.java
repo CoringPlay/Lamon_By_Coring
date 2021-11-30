@@ -18,7 +18,7 @@ public class CreativeTabFoodItemGroup extends LamonByCoringModElements.ModElemen
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabfood") {
+		tab = new ItemGroup("tabcreative_tab_food") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
