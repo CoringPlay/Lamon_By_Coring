@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "lamon_by_coring:blocks/frosty_foliage",
-    "up": "lamon_by_coring:blocks/frosty_foliage",
-    "north": "lamon_by_coring:blocks/frosty_foliage",
-    "east": "lamon_by_coring:blocks/frosty_foliage",
-    "south": "lamon_by_coring:blocks/frosty_foliage",
-    "west": "lamon_by_coring:blocks/frosty_foliage",
+    "all": "lamon_by_coring:blocks/frosty_foliage",
     "particle": "lamon_by_coring:blocks/frosty_foliage"
   }
 }

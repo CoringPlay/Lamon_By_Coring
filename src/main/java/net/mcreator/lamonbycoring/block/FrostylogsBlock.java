@@ -36,7 +36,7 @@ public class FrostylogsBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_logs")
 	public static final Block block = null;
 	public FrostylogsBlock(LamonByCoringModElements instance) {
-		super(instance, 25);
+		super(instance, 19);
 	}
 
 	@Override

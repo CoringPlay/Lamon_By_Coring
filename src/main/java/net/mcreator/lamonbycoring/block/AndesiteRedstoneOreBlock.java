@@ -43,7 +43,7 @@ public class AndesiteRedstoneOreBlock extends LamonByCoringModElements.ModElemen
 	@ObjectHolder("lamon_by_coring:andesite_redstone_ore")
 	public static final Block block = null;
 	public AndesiteRedstoneOreBlock(LamonByCoringModElements instance) {
-		super(instance, 150);
+		super(instance, 25);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

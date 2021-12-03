@@ -24,7 +24,7 @@ public class FrosryStairsBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosry_stairs")
 	public static final Block block = null;
 	public FrosryStairsBlock(LamonByCoringModElements instance) {
-		super(instance, 27);
+		super(instance, 33);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class ColorDesertBiome extends LamonByCoringModElements.ModElement {
 	public static Biome biome;
 	public ColorDesertBiome(LamonByCoringModElements instance) {
-		super(instance, 63);
+		super(instance, 67);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

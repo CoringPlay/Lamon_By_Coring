@@ -16,7 +16,7 @@ public class IronRingItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:iron_ring")
 	public static final Item block = null;
 	public IronRingItem(LamonByCoringModElements instance) {
-		super(instance, 35);
+		super(instance, 41);
 	}
 
 	@Override

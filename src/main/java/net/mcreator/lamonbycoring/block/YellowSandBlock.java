@@ -48,7 +48,7 @@ public class YellowSandBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:yellow_sand")
 	public static final Block block = null;
 	public YellowSandBlock(LamonByCoringModElements instance) {
-		super(instance, 10);
+		super(instance, 4);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

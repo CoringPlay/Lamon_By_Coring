@@ -16,7 +16,7 @@ public class TitanShovelItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_shovel")
 	public static final Item block = null;
 	public TitanShovelItem(LamonByCoringModElements instance) {
-		super(instance, 47);
+		super(instance, 51);
 	}
 
 	@Override

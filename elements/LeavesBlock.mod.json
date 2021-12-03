@@ -2,13 +2,13 @@
   "_fv": 24,
   "_type": "tag",
   "definition": {
-    "type": "Items",
-    "items": [
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
       {
         "value": "CUSTOM:FrostyFoliage"
       }
     ],
-    "blocks": [],
     "functions": [],
     "entities": [],
     "name": "leaves",

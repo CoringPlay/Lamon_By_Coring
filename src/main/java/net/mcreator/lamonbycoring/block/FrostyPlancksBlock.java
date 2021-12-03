@@ -25,7 +25,7 @@ public class FrostyPlancksBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_plancks")
 	public static final Block block = null;
 	public FrostyPlancksBlock(LamonByCoringModElements instance) {
-		super(instance, 26);
+		super(instance, 20);
 	}
 
 	@Override

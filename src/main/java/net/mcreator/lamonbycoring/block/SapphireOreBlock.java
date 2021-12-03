@@ -48,7 +48,7 @@ public class SapphireOreBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:sapphire_ore")
 	public static final Block block = null;
 	public SapphireOreBlock(LamonByCoringModElements instance) {
-		super(instance, 3);
+		super(instance, 27);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

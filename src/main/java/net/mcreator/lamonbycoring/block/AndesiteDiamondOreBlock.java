@@ -43,7 +43,7 @@ public class AndesiteDiamondOreBlock extends LamonByCoringModElements.ModElement
 	@ObjectHolder("lamon_by_coring:andesite_diamond_ore")
 	public static final Block block = null;
 	public AndesiteDiamondOreBlock(LamonByCoringModElements instance) {
-		super(instance, 148);
+		super(instance, 24);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

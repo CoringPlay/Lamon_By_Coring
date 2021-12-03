@@ -2,16 +2,16 @@
   "_fv": 24,
   "_type": "tag",
   "definition": {
-    "type": "Blocks",
-    "items": [],
-    "blocks": [
+    "type": "Items",
+    "items": [
       {
-        "value": "CUSTOM:Frostylogs"
+        "value": "CUSTOM:FrostyFoliage"
       }
     ],
+    "blocks": [],
     "functions": [],
     "entities": [],
-    "name": "logs",
+    "name": "leaves",
     "namespace": "minecraft"
   }
 }

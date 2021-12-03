@@ -25,7 +25,7 @@ public class TitaniumSlabBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_slab")
 	public static final Block block = null;
 	public TitaniumSlabBlock(LamonByCoringModElements instance) {
-		super(instance, 145);
+		super(instance, 31);
 	}
 
 	@Override

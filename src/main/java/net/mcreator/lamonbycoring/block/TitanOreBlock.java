@@ -48,7 +48,7 @@ public class TitanOreBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_ore")
 	public static final Block block = null;
 	public TitanOreBlock(LamonByCoringModElements instance) {
-		super(instance, 5);
+		super(instance, 29);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

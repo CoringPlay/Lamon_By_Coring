@@ -43,7 +43,7 @@ public class TitanWallBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_wall")
 	public static final Block block = null;
 	public TitanWallBlock(LamonByCoringModElements instance) {
-		super(instance, 7);
+		super(instance, 32);
 	}
 
 	@Override
