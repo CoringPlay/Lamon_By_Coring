@@ -16,6 +16,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class TitanswordItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_sword")
 	public static final Item block = null;
+
 	public TitanswordItem(LamonByCoringModElements instance) {
 		super(instance, 49);
 	}

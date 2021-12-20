@@ -23,6 +23,7 @@ import java.util.Collections;
 public class FrosryStairsBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosry_stairs")
 	public static final Block block = null;
+
 	public FrosryStairsBlock(LamonByCoringModElements instance) {
 		super(instance, 33);
 	}
@@ -33,6 +34,7 @@ public class FrosryStairsBlock extends LamonByCoringModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(() -> new Block(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0))

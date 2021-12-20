@@ -31,5 +31,6 @@ public class CreativeTabBlockItemGroup extends LamonByCoringModElements.ModEleme
 			}
 		};
 	}
+
 	public static ItemGroup tab;
 }

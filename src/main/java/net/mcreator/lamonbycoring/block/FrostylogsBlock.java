@@ -35,6 +35,7 @@ import java.util.Collections;
 public class FrostylogsBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_logs")
 	public static final Block block = null;
+
 	public FrostylogsBlock(LamonByCoringModElements instance) {
 		super(instance, 19);
 	}
@@ -51,8 +52,10 @@ public class FrostylogsBlock extends LamonByCoringModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));

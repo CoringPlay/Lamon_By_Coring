@@ -63,10 +63,11 @@ public class CauldronProcProcedure {
 			executeProcedure(dependencies);
 		}
 	}
+
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				LamonByCoringMod.LOGGER.warn("Failed to load dependency entity for procedure CauldronProc!");
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				LamonByCoringMod.LOGGER.warn("Failed to load dependency world for procedure CauldronProc!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
@@ -84,22 +85,22 @@ public class CauldronProcProcedure {
 				LamonByCoringMod.LOGGER.warn("Failed to load dependency z for procedure CauldronProc!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				LamonByCoringMod.LOGGER.warn("Failed to load dependency world for procedure CauldronProc!");
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				LamonByCoringMod.LOGGER.warn("Failed to load dependency entity for procedure CauldronProc!");
 			return;
 		}
-		Entity entity = (Entity) dependencies.get("entity");
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
-		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Items.SLIME_BALL)
-				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CAULDRON))) {
+		Entity entity = (Entity) dependencies.get("entity");
+		if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Items.SLIME_BALL
+				&& (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CAULDRON) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 			}
-			if ((!(new Object() {
+			if (!(new Object() {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayerEntity) {
 						return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
@@ -110,11 +111,11 @@ public class CauldronProcProcedure {
 					}
 					return false;
 				}
-			}.checkGamemode(entity)))) {
+			}.checkGamemode(entity))) {
 				if (entity instanceof LivingEntity) {
 					ItemStack _setstack = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
 					_setstack.setCount(
-							(int) (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount())
+							(int) ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount()
 									- 1));
 					((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
 					if (entity instanceof ServerPlayerEntity)
@@ -155,13 +156,12 @@ public class CauldronProcProcedure {
 						_evt.setCanceled(true);
 				}
 			}
-		} else if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-				.getItem() == Items.SLIME_BALL)
-				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CauldronLevel3Block.block))) {
+		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Items.SLIME_BALL
+				&& (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CauldronLevel3Block.block) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 			}
-			if ((!(new Object() {
+			if (!(new Object() {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayerEntity) {
 						return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
@@ -172,11 +172,11 @@ public class CauldronProcProcedure {
 					}
 					return false;
 				}
-			}.checkGamemode(entity)))) {
+			}.checkGamemode(entity))) {
 				if (entity instanceof LivingEntity) {
 					ItemStack _setstack = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
 					_setstack.setCount(
-							(int) (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount())
+							(int) ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount()
 									- 1));
 					((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
 					if (entity instanceof ServerPlayerEntity)
@@ -217,13 +217,12 @@ public class CauldronProcProcedure {
 						_evt.setCanceled(true);
 				}
 			}
-		} else if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-				.getItem() == Items.SLIME_BALL)
-				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CauldronLevel2Block.block))) {
+		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Items.SLIME_BALL
+				&& (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CauldronLevel2Block.block) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 			}
-			if ((!(new Object() {
+			if (!(new Object() {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayerEntity) {
 						return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
@@ -234,11 +233,11 @@ public class CauldronProcProcedure {
 					}
 					return false;
 				}
-			}.checkGamemode(entity)))) {
+			}.checkGamemode(entity))) {
 				if (entity instanceof LivingEntity) {
 					ItemStack _setstack = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
 					_setstack.setCount(
-							(int) (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount())
+							(int) ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount()
 									- 1));
 					((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
 					if (entity instanceof ServerPlayerEntity)
@@ -279,11 +278,11 @@ public class CauldronProcProcedure {
 						_evt.setCanceled(true);
 				}
 			}
-		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CauldronLevel1Block.block)) {
+		} else if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CauldronLevel1Block.block) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 			}
-			if ((!(new Object() {
+			if (!(new Object() {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayerEntity) {
 						return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
@@ -294,11 +293,11 @@ public class CauldronProcProcedure {
 					}
 					return false;
 				}
-			}.checkGamemode(entity)))) {
+			}.checkGamemode(entity))) {
 				if (entity instanceof LivingEntity) {
 					ItemStack _setstack = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
 					_setstack.setCount(
-							(int) (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount())
+							(int) ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getCount()
 									- 1));
 					((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
 					if (entity instanceof ServerPlayerEntity)

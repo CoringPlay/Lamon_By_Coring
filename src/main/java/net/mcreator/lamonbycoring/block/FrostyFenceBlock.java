@@ -30,6 +30,7 @@ import java.util.Collections;
 public class FrostyFenceBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_fence")
 	public static final Block block = null;
+
 	public FrostyFenceBlock(LamonByCoringModElements instance) {
 		super(instance, 22);
 	}
@@ -46,6 +47,7 @@ public class FrostyFenceBlock extends LamonByCoringModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends FenceBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()

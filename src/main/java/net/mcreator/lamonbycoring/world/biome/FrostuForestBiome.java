@@ -45,10 +45,12 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 @LamonByCoringModElements.ModElement.Tag
 public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 	public static Biome biome;
+
 	public FrostuForestBiome(LamonByCoringModElements instance) {
 		super(instance, 120);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
+
 	private static class BiomeRegisterHandler {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
@@ -68,7 +70,7 @@ public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(FrostylogsBlock.block.getDefaultState()),
 								new SimpleBlockStateProvider(FrostyFoliageBlock.block.getDefaultState()),
 								new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
-								new StraightTrunkPlacer(4, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().setMaxWaterDepth(1).build())
+								new StraightTrunkPlacer(4, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(9, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
@@ -89,6 +91,7 @@ public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 			}
 		}
 	}
+
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.SNOWY,

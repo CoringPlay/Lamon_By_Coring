@@ -24,6 +24,7 @@ import java.util.Collections;
 public class FrostySlabBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_slab")
 	public static final Block block = null;
+
 	public FrostySlabBlock(LamonByCoringModElements instance) {
 		super(instance, 21);
 	}
@@ -34,6 +35,7 @@ public class FrostySlabBlock extends LamonByCoringModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

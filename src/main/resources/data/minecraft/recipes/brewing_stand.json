@@ -2,20 +2,14 @@
   "group": "lamon_by_coring",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    "345"
+    " 0 ",
+    "111"
   ],
   "key": {
-    "1": {
+    "0": {
       "item": "minecraft:blaze_rod"
     },
-    "3": {
-      "tag": "minecraft:slabs"
-    },
-    "4": {
-      "tag": "minecraft:slabs"
-    },
-    "5": {
+    "1": {
       "tag": "minecraft:slabs"
     }
   },

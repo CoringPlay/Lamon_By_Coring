@@ -39,6 +39,7 @@ import java.util.Collections;
 public class CauldronLevel2Block extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:cauldron_level_2")
 	public static final Block block = null;
+
 	public CauldronLevel2Block(LamonByCoringModElements instance) {
 		super(instance, 95);
 	}
@@ -54,8 +55,10 @@ public class CauldronLevel2Block extends LamonByCoringModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));

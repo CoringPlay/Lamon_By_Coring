@@ -15,6 +15,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class EssenceoftheEndItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:essenceofthe_end")
 	public static final Item block = null;
+
 	public EssenceoftheEndItem(LamonByCoringModElements instance) {
 		super(instance, 40);
 	}
@@ -23,6 +24,7 @@ public class EssenceoftheEndItem extends LamonByCoringModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));

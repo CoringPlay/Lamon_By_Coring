@@ -15,6 +15,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class RubyItemItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:ruby_item")
 	public static final Item block = null;
+
 	public RubyItemItem(LamonByCoringModElements instance) {
 		super(instance, 37);
 	}
@@ -23,6 +24,7 @@ public class RubyItemItem extends LamonByCoringModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.RARE));

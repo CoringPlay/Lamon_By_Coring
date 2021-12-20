@@ -21,6 +21,7 @@ import java.util.List;
 public class MonsterTrapPigItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:monster_trap_pig")
 	public static final Item block = null;
+
 	public MonsterTrapPigItem(LamonByCoringModElements instance) {
 		super(instance, 46);
 	}
@@ -29,6 +30,7 @@ public class MonsterTrapPigItem extends LamonByCoringModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));

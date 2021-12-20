@@ -23,6 +23,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class FrostyFoliageBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:frosty_foliage")
 	public static final Block block = null;
+
 	public FrostyFoliageBlock(LamonByCoringModElements instance) {
 		super(instance, 18);
 	}
@@ -33,6 +34,7 @@ public class FrostyFoliageBlock extends LamonByCoringModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0)

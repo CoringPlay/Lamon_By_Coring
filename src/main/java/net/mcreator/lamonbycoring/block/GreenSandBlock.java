@@ -47,6 +47,7 @@ import java.util.Collections;
 public class GreenSandBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:green_sand")
 	public static final Block block = null;
+
 	public GreenSandBlock(LamonByCoringModElements instance) {
 		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
@@ -59,6 +60,7 @@ public class GreenSandBlock extends LamonByCoringModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.3f, 10f).setLightLevel(s -> 0).harvestLevel(1)
@@ -79,12 +81,15 @@ public class GreenSandBlock extends LamonByCoringModElements.ModElement {
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
+
 	private static Feature<OreFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+
 	private static class CustomRuleTest extends RuleTest {
 		static final CustomRuleTest INSTANCE = new CustomRuleTest();
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.SAND)
@@ -120,6 +125,7 @@ public class GreenSandBlock extends LamonByCoringModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lamon_by_coring:green_sand"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;

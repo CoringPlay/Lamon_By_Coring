@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "lamon_by_coring:coal_mini",
-    "lamon_by_coring:charcoal_mini"
+    "lamon_by_coring:charcoal_mini",
+    "lamon_by_coring:coal_mini"
   ]
 }

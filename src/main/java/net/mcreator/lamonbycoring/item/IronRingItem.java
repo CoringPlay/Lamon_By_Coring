@@ -15,6 +15,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class IronRingItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:iron_ring")
 	public static final Item block = null;
+
 	public IronRingItem(LamonByCoringModElements instance) {
 		super(instance, 41);
 	}
@@ -23,6 +24,7 @@ public class IronRingItem extends LamonByCoringModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));

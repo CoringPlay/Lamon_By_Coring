@@ -15,6 +15,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class TitanPickaxeItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_pickaxe")
 	public static final Item block = null;
+
 	public TitanPickaxeItem(LamonByCoringModElements instance) {
 		super(instance, 52);
 	}

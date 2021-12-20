@@ -1,21 +1,21 @@
 {
   "replace": false,
   "values": [
-    "lamon_by_coring:red_sand",
-    "lamon_by_coring:green_sand",
     "lamon_by_coring:yellow_sand",
-    "lamon_by_coring:black_sand",
     "lamon_by_coring:brown_sand",
-    "lamon_by_coring:blue_sand",
-    "lamon_by_coring:white_sand",
-    "lamon_by_coring:pink_sand",
-    "lamon_by_coring:orange_sand",
-    "lamon_by_coring:magenta_sand",
-    "lamon_by_coring:light_blue_sand",
-    "lamon_by_coring:lime_sand",
     "lamon_by_coring:gray_sand",
-    "lamon_by_coring:light_gray_sand",
+    "lamon_by_coring:orange_sand",
+    "lamon_by_coring:white_sand",
+    "lamon_by_coring:light_blue_sand",
+    "lamon_by_coring:blue_sand",
+    "lamon_by_coring:green_sand",
     "lamon_by_coring:cyan_sand",
+    "lamon_by_coring:pink_sand",
+    "lamon_by_coring:black_sand",
+    "lamon_by_coring:light_gray_sand",
+    "lamon_by_coring:magenta_sand",
+    "lamon_by_coring:red_sand",
+    "lamon_by_coring:lime_sand",
     "lamon_by_coring:purple_sand"
   ]
 }

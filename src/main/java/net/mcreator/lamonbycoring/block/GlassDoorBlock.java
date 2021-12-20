@@ -30,6 +30,7 @@ import java.util.Collections;
 public class GlassDoorBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:glass_door")
 	public static final Block block = null;
+
 	public GlassDoorBlock(LamonByCoringModElements instance) {
 		super(instance, 48);
 	}
@@ -45,6 +46,7 @@ public class GlassDoorBlock extends LamonByCoringModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.5f, 10f).setLightLevel(s -> 0).notSolid()

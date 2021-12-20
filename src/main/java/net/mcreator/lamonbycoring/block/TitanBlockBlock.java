@@ -25,6 +25,7 @@ import java.util.Collections;
 public class TitanBlockBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:titanium_block")
 	public static final Block block = null;
+
 	public TitanBlockBlock(LamonByCoringModElements instance) {
 		super(instance, 30);
 	}
@@ -35,6 +36,7 @@ public class TitanBlockBlock extends LamonByCoringModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)

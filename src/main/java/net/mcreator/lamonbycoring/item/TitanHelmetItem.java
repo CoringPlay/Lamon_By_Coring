@@ -28,6 +28,7 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("lamon_by_coring:titanium_boots")
 	public static final Item boots = null;
+
 	public TitanHelmetItem(LamonByCoringModElements instance) {
 		super(instance, 50);
 	}
@@ -101,4 +102,5 @@ public class TitanHelmetItem extends LamonByCoringModElements.ModElement {
 			}
 		}.setRegistryName("titanium_boots"));
 	}
+
 }

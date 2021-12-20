@@ -46,6 +46,7 @@ public class LamonByCoringMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("lamon_by_coring", "lamon_by_coring"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public LamonByCoringModElements elements;
+
 	public LamonByCoringMod() {
 		elements = new LamonByCoringModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -86,8 +87,10 @@ public class LamonByCoringMod {
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		elements.registerSounds(event);
 	}
+
 	private static class LamonByCoringModFMLBusEvents {
 		private final LamonByCoringMod parent;
+
 		LamonByCoringModFMLBusEvents(LamonByCoringMod parent) {
 			this.parent = parent;
 		}

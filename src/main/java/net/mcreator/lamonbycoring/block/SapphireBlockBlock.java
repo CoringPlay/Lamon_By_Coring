@@ -25,6 +25,7 @@ import java.util.Collections;
 public class SapphireBlockBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:sapphire_block")
 	public static final Block block = null;
+
 	public SapphireBlockBlock(LamonByCoringModElements instance) {
 		super(instance, 28);
 	}
@@ -35,6 +36,7 @@ public class SapphireBlockBlock extends LamonByCoringModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1.9999999999999998f, 10f).setLightLevel(s -> 0)

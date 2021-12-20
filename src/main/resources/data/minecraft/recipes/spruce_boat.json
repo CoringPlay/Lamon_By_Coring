@@ -2,8 +2,8 @@
   "group": "lamon_by_coring",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345"
+    "010",
+    "000"
   ],
   "key": {
     "0": {
@@ -11,18 +11,6 @@
     },
     "1": {
       "item": "minecraft:wooden_shovel"
-    },
-    "2": {
-      "item": "minecraft:spruce_planks"
-    },
-    "3": {
-      "item": "minecraft:spruce_planks"
-    },
-    "4": {
-      "item": "minecraft:spruce_planks"
-    },
-    "5": {
-      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

@@ -16,6 +16,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class CookingPorkBreadItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:cooking_pork_bread")
 	public static final Item block = null;
+
 	public CookingPorkBreadItem(LamonByCoringModElements instance) {
 		super(instance, 54);
 	}
@@ -24,10 +25,13 @@ public class CookingPorkBreadItem extends LamonByCoringModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new FoodItemCustom());
 	}
+
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(CreativeTabFoodItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(13).saturation(8f).build()));
+					.food((new Food.Builder()).hunger(13).saturation(8f)
+
+							.build()));
 			setRegistryName("cooking_pork_bread");
 		}
 

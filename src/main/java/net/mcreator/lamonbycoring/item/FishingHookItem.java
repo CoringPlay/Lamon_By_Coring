@@ -15,6 +15,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 public class FishingHookItem extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:fishing_hook")
 	public static final Item block = null;
+
 	public FishingHookItem(LamonByCoringModElements instance) {
 		super(instance, 39);
 	}
@@ -23,6 +24,7 @@ public class FishingHookItem extends LamonByCoringModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));

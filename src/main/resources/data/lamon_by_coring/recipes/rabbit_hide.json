@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:rabbit_hide"
+    }
+  ]
+}

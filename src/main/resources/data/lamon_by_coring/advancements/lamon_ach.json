@@ -19,8 +19,5 @@
     "lamon_ach": {
       "trigger": "minecraft:tick"
     }
-  },
-  "rewards": {
-    "experience": 0
   }
 }

@@ -37,6 +37,7 @@ import java.util.Collections;
 public class PressedPotatoesBlockBlock extends LamonByCoringModElements.ModElement {
 	@ObjectHolder("lamon_by_coring:pressed_potatoes_block")
 	public static final Block block = null;
+
 	public PressedPotatoesBlockBlock(LamonByCoringModElements instance) {
 		super(instance, 1);
 	}
@@ -53,8 +54,10 @@ public class PressedPotatoesBlockBlock extends LamonByCoringModElements.ModEleme
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends FallingBlock {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(0.5f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));

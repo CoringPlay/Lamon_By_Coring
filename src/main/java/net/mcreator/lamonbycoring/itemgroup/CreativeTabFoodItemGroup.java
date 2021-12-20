@@ -31,5 +31,6 @@ public class CreativeTabFoodItemGroup extends LamonByCoringModElements.ModElemen
 			}
 		};
 	}
+
 	public static ItemGroup tab;
 }

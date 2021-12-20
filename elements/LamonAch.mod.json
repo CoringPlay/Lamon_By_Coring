@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Lamon",
-    "achievementDescription": "HI",
+    "achievementDescription": "The beginning of the adventure",
     "achievementIcon": {
       "value": "CUSTOM:Sapphireitem"
     },
