@@ -17,7 +17,7 @@ public class FishingHookItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public FishingHookItem(LamonByCoringModElements instance) {
-		super(instance, 39);
+		super(instance, 38);
 	}
 
 	@Override

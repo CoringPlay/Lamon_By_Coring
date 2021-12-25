@@ -35,7 +35,7 @@ public class ColorDesertBiome extends LamonByCoringModElements.ModElement {
 	public static Biome biome;
 
 	public ColorDesertBiome(LamonByCoringModElements instance) {
-		super(instance, 67);
+		super(instance, 66);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

@@ -18,7 +18,7 @@ public class CookingPorkBreadItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public CookingPorkBreadItem(LamonByCoringModElements instance) {
-		super(instance, 54);
+		super(instance, 53);
 	}
 
 	@Override

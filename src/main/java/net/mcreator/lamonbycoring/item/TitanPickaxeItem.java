@@ -17,7 +17,7 @@ public class TitanPickaxeItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public TitanPickaxeItem(LamonByCoringModElements instance) {
-		super(instance, 52);
+		super(instance, 51);
 	}
 
 	@Override

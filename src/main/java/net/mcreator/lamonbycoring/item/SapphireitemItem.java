@@ -17,7 +17,7 @@ public class SapphireitemItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public SapphireitemItem(LamonByCoringModElements instance) {
-		super(instance, 35);
+		super(instance, 34);
 	}
 
 	@Override

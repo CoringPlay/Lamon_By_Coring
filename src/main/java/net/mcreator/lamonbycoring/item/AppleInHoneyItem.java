@@ -18,7 +18,7 @@ public class AppleInHoneyItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public AppleInHoneyItem(LamonByCoringModElements instance) {
-		super(instance, 56);
+		super(instance, 55);
 	}
 
 	@Override

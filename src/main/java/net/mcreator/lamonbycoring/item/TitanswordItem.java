@@ -18,7 +18,7 @@ public class TitanswordItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public TitanswordItem(LamonByCoringModElements instance) {
-		super(instance, 49);
+		super(instance, 48);
 	}
 
 	@Override

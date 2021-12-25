@@ -13,7 +13,7 @@ import net.mcreator.lamonbycoring.LamonByCoringModElements;
 @LamonByCoringModElements.ModElement.Tag
 public class CreativeTabBlockItemGroup extends LamonByCoringModElements.ModElement {
 	public CreativeTabBlockItemGroup(LamonByCoringModElements instance) {
-		super(instance, 146);
+		super(instance, 145);
 	}
 
 	@Override

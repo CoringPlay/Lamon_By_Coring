@@ -23,7 +23,7 @@ public class MonsterTrapCowItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public MonsterTrapCowItem(LamonByCoringModElements instance) {
-		super(instance, 45);
+		super(instance, 44);
 	}
 
 	@Override

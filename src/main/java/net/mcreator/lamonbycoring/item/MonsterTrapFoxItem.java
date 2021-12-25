@@ -23,7 +23,7 @@ public class MonsterTrapFoxItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public MonsterTrapFoxItem(LamonByCoringModElements instance) {
-		super(instance, 47);
+		super(instance, 46);
 	}
 
 	@Override

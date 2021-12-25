@@ -17,7 +17,7 @@ public class CharcoalMiniItem extends LamonByCoringModElements.ModElement {
 	public static final Item block = null;
 
 	public CharcoalMiniItem(LamonByCoringModElements instance) {
-		super(instance, 43);
+		super(instance, 42);
 	}
 
 	@Override

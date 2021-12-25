@@ -47,7 +47,7 @@ public class FrostuForestBiome extends LamonByCoringModElements.ModElement {
 	public static Biome biome;
 
 	public FrostuForestBiome(LamonByCoringModElements instance) {
-		super(instance, 120);
+		super(instance, 119);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 
